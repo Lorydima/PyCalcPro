@@ -7,7 +7,7 @@
 PyCalc Pro V1.0 is a calculator with basic math operations, advanced math operations and and a unit converter function for mass and length 
 
 ### Downolad PyCalc Pro V1.0
-For donwload PyCalc Pro V.10 follow this link:
+For donwload PyCalc Pro V.1.0 follow this link:
 <a href="https://github.com/Lorydima/PyCalcPro/releases/download/Relases/PyCalc.Pro.V1.0.Software.zip" download>Download PyCalc Pro V1.0</a>
 
 # Coming soon
