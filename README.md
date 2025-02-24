@@ -4,7 +4,7 @@
 </div>
 
 ### Description
-PyCalc Pro V1.0 is a calculator with basic math operations, advanced math operations and and a unit converter function for mass and length 
+PyCalc Pro V1.0 is a calculator with basic math operations, advanced math operations and a unit converter function for mass and length 
 
 ### Downolad PyCalc Pro V1.0
 For donwload PyCalc Pro V.1.0 follow this link:
