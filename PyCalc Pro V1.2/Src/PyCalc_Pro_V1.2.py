@@ -1,9 +1,15 @@
 # PyCalc Pro V1.2  Source Code Date: 02/04/2025 Developer: LDM Dev. 
 
 '''
-PyCalc Pro V1.2 is a calculator with basic math operations, advanced math operations and and a unit converter function for mass and length 
+PyCalc Pro V1.2 is a calculator with basic math operations, advanced math operations and and a unit converter function for mass and length and a memory for save operations. 
 
 Git Hub Repository Link: "https://github.com/Lorydima/PyCalcPro"
+
+Before using the app, please read the terms of use in the file "PYCALC_PRO_V1.2_TERMS_OF_USE.TXT" 
+
+If you have committed a bug or have a suggestion, please open an issue in the Git Hub repository.
+
+Thank You for using PyCalc Pro V1.2!
 '''
 # Library for app Dev.
 from tkinter import Tk, Canvas, Entry, StringVar, Toplevel, Label, Button
