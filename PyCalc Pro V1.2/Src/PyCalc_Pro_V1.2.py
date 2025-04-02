@@ -1,15 +1,9 @@
 # PyCalc Pro V1.2  Source Code Date: 02/04/2025 Developer: LDM Dev. 
 
 '''
-PyCalc Pro V1.2 is a calculator with basic math operations, advanced math operations and and a unit converter function for mass and length and a memory for save operations. 
+PyCalc Pro V1.2 is a calculator with basic math operations, advanced math operations and and a unit converter function for mass and length 
 
 Git Hub Repository Link: "https://github.com/Lorydima/PyCalcPro"
-
-Before using the app, please read the terms of use in the file "PYCALC_PRO_V1.2_TERMS_OF_USE.TXT" 
-
-If you have committed a bug or have a suggestion, please open an issue in the Git Hub repository.
-
-Thank You for using PyCalc Pro V1.2!
 '''
 # Library for app Dev.
 from tkinter import Tk, Canvas, Entry, StringVar, Toplevel, Label, Button
@@ -29,20 +23,25 @@ def get_logo_path():
 logo_path = get_logo_path()
 
 if not os.path.exists(logo_path):
-    logo_path = "PyCalc_Pro_V1.2_Logo.ico"
+    logo_path = "PyCalc_Pro_V1.2_Logo.ico"    
 
 # Terms of Use Path
 terms_of_use_path = os.path.join(os.path.dirname(__file__), "PYCALC_PRO_V1.2_TERMS_OF_USE.TXT")
 
-# Operations Memory File Path
-operations_file_path = os.path.join(os.path.dirname(__file__), "OPERATIONS_MEMORY.json")
+def get_operations_file_path():
+    return os.path.join(os.path.dirname(sys.executable if hasattr(sys, 'frozen') else __file__), "OPERATIONS_MEMORY.json")
+
+operations_file_path = get_operations_file_path()
 
 # Operations Memory Save Functions
 def save_operation(operation):
     try:
         if os.path.exists(operations_file_path):
             with open(operations_file_path, "r") as file:
-                operations = json.load(file)
+                try:
+                    operations = json.load(file)
+                except json.JSONDecodeError:
+                    operations = [] 
         else:
             operations = []
 
@@ -53,16 +52,19 @@ def save_operation(operation):
         with open(operations_file_path, "w") as file:
             json.dump(operations, file)
     except Exception as e:
-        print()
+        print(f"{e}")
 
 def get_operations():
     try:
         if os.path.exists(operations_file_path):
             with open(operations_file_path, "r") as file:
-                return json.load(file)
+                try:
+                    return json.load(file)
+                except json.JSONDecodeError:
+                    return []
         return []
     except Exception as e:
-        print()
+        print(f"{e}")
         return []
 
 # Unit Converter Functions
