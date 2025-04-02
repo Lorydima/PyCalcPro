@@ -35,7 +35,7 @@ Terms of use update: 02/04/2025
 Thank You again from LDM Dev.❤️
 
 # 🛠️Bug reports and issue
-I strive to make this project as reliable and robust as possible, but I acknowledge that bugs can happen. If you encounter any issues or identify bugs in the code, I encourage you to open an issue on GitHub. Your feedback is incredibly valuable and helps us improve the project.
+I strive to make this project as reliable and robust as possible, but I acknowledge that bugs can happen. If you encounter any issues or identify bugs in the code, I encourage you to open an issue on GitHub. Your feedback is incredibly valuable and helps me improve the project.
 
 Thank you for your contributions and for helping me make this project better!❤️
 
