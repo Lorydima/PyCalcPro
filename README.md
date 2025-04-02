@@ -12,7 +12,7 @@ PyCalc Pro V1.2 is a calculator developed in python. The calculator functions ar
 
 ### Downolad PyCalc Pro V1.2
 For donwload PyCalc Pro V.1.2 follow this link, the software is only for Windows OS:
-<a href="https://github.com/Lorydima/PyCalcPro/releases/download/RelasesV1.1/PyCalc_Pro_V1.1_Windows.zip" download>Download PyCalc Pro V1.1</a>
+<a href="https://github.com/Lorydima/PyCalcPro/releases/download/Relases_PyCalc_Pro_V1.2/PyCalc_Pro_V1.2.zip" download>Download PyCalc Pro V1.2</a>
 
 # Terms of use
 Thank you for downloading PyCalc Pro V1.2. Before using the software, please take a moment to review the terms of use outlined below. Your compliance with these terms ensures the responsible and appropriate use of this application.
