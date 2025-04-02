@@ -40,7 +40,7 @@ Thank you for downloading PyCalc Pro V1.2. Before using the software, please tak
 - You can view the source code for educational or personal purposes.  
 - It is not permitted to republish either the application or the source code, in any form or for any purpose, without explicit written permission from me.
 
-Terms of use update: 02/04/2025
+Terms of use update date: 02/04/2025
 
 Thank You again from LDM Dev.❤️
 
