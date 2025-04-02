@@ -39,5 +39,5 @@ I strive to make this project as reliable and robust as possible, but I acknowle
 
 Thank you for your contributions and for helping me make this project better!❤️
 
-# Coming soon
+# 🔮Coming soon
 PyCalc Pro Website
