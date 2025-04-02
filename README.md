@@ -3,6 +3,16 @@
   <img src="https://github.com/user-attachments/assets/bc9e6c14-4353-4d28-a4aa-a930f0c559f5" alt="PyCalc_Pro_V1.1_README_Img" width="400" height="900">
 </div>
 
+# 📁Repository Info
+![GitHub stars](https://img.shields.io/github/stars/Lorydima/PyCalcPro)
+![GitHub forks](https://img.shields.io/github/forks/Lorydima/PyCalcPro)
+![GitHub last commit](https://img.shields.io/github/last-commit/Lorydima/PyCalcPro)
+![GitHub version](https://img.shields.io/github/v/release/Lorydima/PyCalcPro)
+![GitHub top language](https://img.shields.io/github/languages/top/Lorydima/PyCalcPro)
+![GitHub repo size](https://img.shields.io/github/repo-size/Lorydima/PyCalcPro)
+![GitHub Issues](https://img.shields.io/github/issues/Lorydima/PyCalcPro)
+![GitHub Pull Requests](https://img.shields.io/github/issues-pr/Lorydima/PyCalcPro)
+
 # ℹ️Description
 PyCalc Pro V1.2 is a calculator developed in python. The calculator functions are:
 - Base math operations
