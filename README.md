@@ -52,6 +52,9 @@ Terms of use update date: 02/04/2025
 
 Thank You again from LDM Dev.❤️
 
+File Link: <a href="https://github.com/Lorydima/PyCalcPro/blob/main/LICENSE.txt" >LICENSE.TXT</a>
+
+
 # 🛠️Bug reports and issue
 I strive to make this project as reliable and robust as possible, but I acknowledge that bugs can happen. If you encounter any issues or identify bugs in the code, I encourage you to open an issue on GitHub. Your feedback is incredibly valuable and helps me improve the project.
 
