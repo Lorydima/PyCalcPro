@@ -38,7 +38,9 @@ In the download folder the files you find are:
 **WARNING:** For the correct functioning of the software do not remove the files: PYCALC_PRO_V1.2_TERMS_OF_USE.txt and OPERATIONS_MEMORY.json 
 
 # 📄Terms of use and License
-Thank you for downloading PyCalc Pro V1.2. Before using the software, please take a moment to review the terms of use outlined below. Your compliance with these terms ensures the responsible and appropriate use of this application.
+**These terms of use represent the license of the software**
+
+Thank you for downloading PyCalc Pro V1.2. Before using the software, please take a moment to review the terms of use outlined below. Your compliance with these terms ensures the responsible and appropriate use of this application. 
 
 **TERMS OF USE:**
 - You can freely download and use this application.  
