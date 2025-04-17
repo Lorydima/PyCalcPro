@@ -1,9 +1,10 @@
+/* Stile generale */
 body {
     background-color: rgb(56, 56, 56);
 }
 
 article {
-    background-color: rgb(49,49,49);
+    background-color: rgb(49, 49, 49);
 }
 
 h1 {
@@ -23,19 +24,135 @@ a {
 
 hr {
     color: white;
-    border: none; 
-    height: 15px; 
-    background-color: rgb(255, 255, 255); 
+    border: none;
+    height: 15px;
+    background-color: rgb(255, 255, 255);
 }
 
-.card {
-    width: 1500px;
-    height: 500px;
-    border-radius: 30px;
-    background: #212121;
-    border: 3px solid white;
-    margin-top: 25px;
+.hero-text h1 {
+    color: white;
+    margin-top: 150px;
+    padding-left: 50px;
+    font-weight: 40px;
+}
+
+.hero-text h1 span {
+    color: red;
+}
+
+.hero-text p {
+    text-align: left;
+    padding-left: 50px;
+    font-size: 30px;
+}
+
+.hero-text a {
+    margin-left: 50px;
+    font-size: 25px;
+}
+
+.hero-img {
+    margin-top: -350px; 
+    margin-right: 180px;
+    width: 300px;
+    height: 600px,
+}
+
+.card-title h1 {
+    margin-left: 500px;
+    margin-top: -50px;
+}
+
+.card-title1 h1 {
+    font-size: 35px;
+    margin-left: 50px;
+}
+.card-title h1 span {
+    color: red;
+}
+
+.card-text0 p {
+    font-size: 25px;
+    margin-left: 500px;
+}
+
+.card-title2 h1 {
+    font-size: 35px;
+    margin-left: 700px;
+}
+.card-text2 p {
+    font-size: 25px;
+    margin-left: 505px;
+    margin-top: -150px;
+}
+
+.card-title3 h1 {
+    font-size: 35px;
+    margin-left: 585px;
+    margin-top: -550px;
+}
+.card-text3 p {
+    font-size: 35px;
+    margin-left: 505px;
+    margin-top: -350px;
+}
+.card-content2 .img {
+    width: 50px;
+    height: 50px;
+}
+/* Navbar */
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand span {
     margin-left: 10px;
+    font-size: 1.5rem;
+}
+
+/* Bottone GitHub Repository */
+.btn-danger {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    padding: 10px 20px;
+}
+
+/* Stile per le card */
+.card {
+    width: 100%;
+    max-width: 1200px;
+    margin: 25px auto;
+    padding: 30px;
+    background-color: #212121;
+    border: 3px solid white;
+    border-radius: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Contenuto della card */
+.card-content {
+    display: flex;
+    align-items: left;
+    gap: 20px;
+    flex-wrap: wrap; /* Permette di adattarsi su schermi piccoli */
+}
+
+/* Immagini */
+.card-image {
+    max-width: 40%; /* Occupa il 40% della larghezza */
+    height: auto;
+    border-radius: 15px;
+}
+
+/* Testo */
+.card-text {
+    max-width: 60%; /* Occupa il 60% della larghezza */
+    text-align: right;
+
 }
 
 .button-container {
@@ -57,10 +174,12 @@ hr {
     width: 100%;
 }
 
+/* Stile per il footer */
 footer {
     background-color: white;
     color: black;
     padding: 20px 0;
+    text-align: center;
 }
 
 footer p {
@@ -71,4 +190,214 @@ footer p {
 footer a {
     color: black;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Stile per l'icona Python */
+.python-icon {
+    color: white;
+    align-items: left;
+    font-size: 250px;
+    margin-bottom: -170px;
+    margin-left: 200px;
+}
+
+/* Media query per schermi medi (max-width: 1024px) */
+@media (max-width: 1024px) {
+
+    .hero-img {
+        width: 300px;
+        height: 600px;
+        margin-top: 50px; 
+        margin-right: 250px;
+    }
+    
+    .hero-text h1 {
+        color: white;
+        margin-top: 50px;
+        padding-left: 300px;
+        font-weight: 40px;
+    }
+    
+    .hero-text h1 span {
+        color: red;
+    }
+    
+    .hero-text p {
+        text-align: left;
+        padding-left: 150px;
+        font-size: 30px;
+    }
+    
+    .hero-text a {
+        margin-left: 225px;
+        font-size: 25px;
+    }
+    
+    .card {
+        max-width: 90%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 25px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .card-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .card-content img {
+        height: 250px;
+        width: 650px;
+    }
+
+    .card-image {
+        max-width: 250%;
+    }
+
+    
+    .card-title3 h1 {
+    font-size: 35px;
+    margin-left: 585px;
+    margin-top: -550px;
+    }
+    .card-text3 p {
+    font-size: 35px;
+    margin-left: 505px;
+    margin-top: -350px;
+    }
+    .card-title h1 {
+        margin-left: 200px;
+        margin-top: 200px;
+    }
+    
+    .card-title h1 span {
+        color: red;
+    }
+    
+    .card-title2 h1 {
+        margin-right: 1500px;
+        margin-top: 200px;
+    }
+    .card-text2 p {
+        font-size: 25px;
+        margin-left: 10px;
+        margin-top: -25px;
+    }
+    .card-text0 p {
+        font-size: 25px;
+        margin-left: 150px;
+    }
+
+    
+    .card-text p, .card-text ul li {
+        font-size: 0.9rem;
+        align-items: center;
+        margin-top: -10px;
+        margin-right: 200px;
+    }
+
+    .python-icon {
+        font-size: 220px;
+        margin-left: 50px;
+        align-items: center;
+        margin-top: -10px;
+    }
+
+    .btn-danger {
+        width: 200px;
+    }
+}
+
+/* Media query per schermi piccoli (max-width: 768px) */
+@media (max-width: 768px) {
+    .card {
+        max-width: 95%;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .button-container {
+        margin-top: 15px;
+    }
+
+    footer img {
+        width: 80px;
+        height: auto;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+
+    .card-text h1 {
+        font-size: 1.2rem;
+    }
+
+    .card-text3 .h1 {
+        margin-top: -800px;
+
+    }
+
+    .card-text p, .card-text ul li {
+        font-size: 0.8rem;
+    }
+
+    .python-icon {
+        font-size: 150px;
+        margin-left: 50px;
+        margin-top: -100px;
+    }
+}
+
+/* Media query per schermi molto piccoli (max-width: 576px) */
+@media (max-width: 576px) {
+    .card {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    footer img {
+        width: 60px;
+        height: auto;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+
+    .python-icon {
+        font-size: 100px;
+        margin-left: 20px;
+        margin-top: -50px;
+    }
 }
