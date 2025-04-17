@@ -359,6 +359,11 @@ footer a {
 }
 
 @media (max-width: 768px) {
+    body {
+        transform: scale(0.5); 
+        transform-origin: top left; 
+    }
+    
     .card {
         max-width: 95%;
         padding: 10px;
@@ -396,7 +401,7 @@ footer a {
     .card-image3 {
         margin-bottom: -350px;
         height: 850px;
-        width: 10px;
+        width: 300px;
         margin-right: 800px;
     }
 
