@@ -358,11 +358,7 @@ footer a {
     }
 }
 
-@media (max-width: 768px) {
-    body {
-        transform: scale(0.5); 
-    }
-    
+@media (max-width: 768px) {    
     .card {
         max-width: 95%;
         padding: 10px;
