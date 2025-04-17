@@ -360,69 +360,167 @@ footer a {
 
 @media (max-width: 768px) {
     body {
-        transform: scale(1.0);
-        transform-origin:  top center; 
+        transform: none; /* Rimosso lo scaling globale */
     }
     
+    .navbar .btn-danger {
+        font-size: 16px;
+        background-color: red;
+        color: white;
+        padding: 8px 15px; /* Dimensione del bottone */
+        border-radius: 5px; /* Angoli arrotondati */
+        text-align: center;
+        display: inline-flex; /* Centra il contenuto del bottone */
+        align-items: center; /* Centra verticalmente l'icona e il testo */
+        justify-content: center; /* Centra orizzontalmente l'icona e il testo */
+        text-decoration: none; /* Rimuove la sottolineatura */
+    }
+    
+    .hero-img {
+        width: 300px;
+        height: 600px;
+        display: block; /* Mantiene il comportamento di blocco */
+        margin: 20px auto; /* Centra l'immagine orizzontalmente */
+    }
+    
+    .hero-text h1 {
+        color: white;
+        margin-top: 50px;
+        padding-left: 10px;
+        font-weight: 40px;
+    }
+
+    .hero-text h1 span {
+        color: red;
+    }
+
+    .hero-text p {
+        text-align: left;
+        padding-left: 25px;
+        font-size: 25px;
+    }
+
+    .hero-text a {
+        display: block; /* Per rendere il link un elemento blocco */
+        margin: 0 auto; /* Centra il link orizzontalmente */
+        text-align: center; /* Centra il contenuto all'interno del link */
+        font-size: 25px;
+        padding-right: 0; /* Rimuovi padding-right per evitare spostamenti */
+    }
     .card {
         max-width: 95%;
         padding: 10px;
+        margin: 20px auto; /* Centra la card */
+        text-align: center; /* Centra il contenuto della card */
     }
 
     h1 {
         font-size: 24px;
+        text-align: center; /* Centra il titolo */
     }
 
     p {
         font-size: 16px;
+        text-align: center; /* Centra i paragrafi */
+    }
+    
+    li {
+        margin-bottom: 10px;
+        text-align: left;
     }
 
     .button-container {
-        margin-top: 15px;
+        margin: 15px auto; /* Centra il pulsante */
+        text-align: center; /* Centra il contenitore */
     }
 
     footer img {
         width: 80px;
         height: auto;
+        display: block;
+        margin: 0 auto; /* Centro automatico */
     }
 
     footer p {
         font-size: 14px;
+        text-align: center; /* Centra il testo nel footer */
+        margin-bottom: 20px;
+        padding-top: 200px;
+        padding-left: 20px;
     }
 
-    .card-text h1 {
-        font-size: 1.2rem;
+    .card h1 {
+        font-size: 1.5rem; /* Dimensione del titolo */
+        margin: 10px 0;
+        color: white; /* Evidenzia il testo importante */
     }
-
-    .card-text3{
-        margin-top: 200px;
-        margin-left: -500px;
+    
+    .card p {
+        font-size: 1rem;
+        margin: 10px 0;
+        line-height: 1.5; /* Migliora la leggibilità */
     }
-
+    
+    .card span {
+        color: red; /* Evidenzia le parole chiave */
+    }
+    
+    .card-text3 {
+        margin-top: -30px; /* Sposta il testo descrittivo verso l'alto */
+        text-align: center; /* Centra il testo */
+    }
+    
     .card-image3 {
-        margin-bottom: -350px;
-        height: 850px;
-        width: 300px;
-        margin-right: 800px;
+        width: 100%;
+        max-width: 400px; /* Dimensione massima per evitare estensioni eccessive */
+        height: auto; /* Mantiene proporzioni */
+        margin: 15px auto; /* Centro automatico */
+        display: block;
     }
 
     .card-title3 {
-        margin-top: 200px;
-        margin-left: -580px;
-    }
-
-    .card-text3 {
+        margin: 20px auto; /* Centro automatico */
+        text-align: center; /* Centra il titolo */
         margin-top: -25px;
     }
 
-    .card-text p, .card-text ul li {
-        font-size: 0.8rem;
-    }
-
     .card-content img {
-        height: 250px;
-        width: 650px;
-        margin-left: 15px;
+        height: auto; /* Mantiene proporzioni corrette */
+        width: 100%;
+        max-width: 400px; /* Dimensione massima ottimale */
+        margin: 0 auto; /* Centro automatico */
     }
 
+    .python-icon {
+        font-size: 220px;
+        margin: 10px auto;
+        text-align: center; /* Centra l'icona */
+    }
+
+    .download-info {
+        margin-top: 150px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 1.6;
+        max-width: 300px;
+        margin-right: 65px;
+    }
+    
+
+    .card .btn-danger {
+        width: 350px;
+        margin: 0 auto; /* Centra il bottone */
+        background-color: red;
+        color: white;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 5px;
+        text-align: center;
+        position: relative;
+        top: 0; /* Posiziona in alto */
+        margin-top: -300px;
+        margin-left: 25px;
+    }
+    
+    
 }
