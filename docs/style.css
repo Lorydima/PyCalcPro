@@ -446,7 +446,7 @@ footer a {
         text-align: center; /* Centra il testo nel footer */
         margin-bottom: 20px;
         padding-top: 200px;
-        padding-left: 20px;
+        padding-right: 50px;
     }
 
     .card h1 {
@@ -503,12 +503,12 @@ footer a {
         font-size: 18px;
         line-height: 1.6;
         max-width: 300px;
-        margin-right: 65px;
+        margin-right: 25px;
     }
     
 
     .card .btn-danger {
-        width: 350px;
+        width: 320px;
         margin: 0 auto; /* Centra il bottone */
         background-color: red;
         color: white;
@@ -519,7 +519,7 @@ footer a {
         position: relative;
         top: 0; /* Posiziona in alto */
         margin-top: -300px;
-        margin-left: 25px;
+        margin-left: 10px;
     }
     
     
