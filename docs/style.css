@@ -358,7 +358,11 @@ footer a {
     }
 }
 
-@media (max-width: 768px) {    
+@media (max-width: 768px) {
+    body {
+        transform: scale(1.0); 
+    }
+    
     .card {
         max-width: 95%;
         padding: 10px;
@@ -389,8 +393,9 @@ footer a {
         font-size: 1.2rem;
     }
 
-    .card-text3 .h1 {
-        margin-top: -800px;
+    .card-text3{
+        margin-top: 200px;
+        margin-left: -500px;
     }
 
     .card-image3 {
@@ -401,8 +406,8 @@ footer a {
     }
 
     .card-title3 {
-        margin-top: 35px;
-        margin-left: -85px;
+        margin-top: 200px;
+        margin-left: -580px;
     }
 
     .card-text3 {
