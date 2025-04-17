@@ -361,7 +361,7 @@ footer a {
 @media (max-width: 768px) {
     body {
         transform: scale(1.0);
-        transform-origin: top center; 
+        transform-origin:  top center; 
     }
     
     .card {
