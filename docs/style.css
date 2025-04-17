@@ -1,4 +1,3 @@
-/* Stile generale */
 body {
     background-color: rgb(56, 56, 56);
 }
@@ -52,10 +51,10 @@ hr {
 }
 
 .hero-img {
-    margin-top: -350px; 
+    margin-top: -350px;
     margin-right: 180px;
     width: 300px;
-    height: 600px,
+    height: 600px;
 }
 
 .card-title h1 {
@@ -67,6 +66,7 @@ hr {
     font-size: 35px;
     margin-left: 50px;
 }
+
 .card-title h1 span {
     color: red;
 }
@@ -80,6 +80,7 @@ hr {
     font-size: 35px;
     margin-left: 700px;
 }
+
 .card-text2 p {
     font-size: 25px;
     margin-left: 505px;
@@ -91,16 +92,18 @@ hr {
     margin-left: 585px;
     margin-top: -550px;
 }
+
 .card-text3 p {
     font-size: 35px;
     margin-left: 505px;
     margin-top: -350px;
 }
+
 .card-content2 .img {
     width: 50px;
     height: 50px;
 }
-/* Navbar */
+
 .navbar-brand {
     display: flex;
     align-items: center;
@@ -111,13 +114,11 @@ hr {
     font-size: 1.5rem;
 }
 
-/* Bottone GitHub Repository */
 .nav-item .btn-danger {
     width: 200px;
     margin-top: 0px;
 }
 
-/* Stile per le card */
 .card {
     width: 100%;
     max-width: 1200px;
@@ -129,30 +130,24 @@ hr {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     overflow: hidden;
-
 }
 
-
-/* Contenuto della card */
 .card-content {
     display: flex;
     align-items: left;
     gap: 20px;
-    flex-wrap: wrap; /* Permette di adattarsi su schermi piccoli */
+    flex-wrap: wrap;
 }
 
-/* Immagini */
 .card-image {
-    max-width: 40%; /* Occupa il 40% della larghezza */
+    max-width: 40%;
     height: auto;
     border-radius: 15px;
 }
 
-/* Testo */
 .card-text {
-    max-width: 60%; /* Occupa il 60% della larghezza */
+    max-width: 60%;
     text-align: right;
-
 }
 
 .card-image3 {
@@ -169,7 +164,6 @@ hr {
 .card-text3 {
     margin-top: -25px;
 }
-
 
 .button-container {
     text-align: center;
@@ -190,7 +184,6 @@ hr {
     width: 100%;
 }
 
-/* Stile per il footer */
 footer {
     background-color: white;
     color: black;
@@ -208,7 +201,6 @@ footer a {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Stile per l'icona Python */
 .python-icon {
     color: white;
     align-items: left;
@@ -219,7 +211,7 @@ footer a {
 
 .download-info {
     margin-left: 80px;
-} 
+}
 
 .btn-danger {
     width: 500px;
@@ -227,43 +219,40 @@ footer a {
     margin-left: -10px;
 }
 
-/* Media query per schermi medi (max-width: 1024px) */
 @media (max-width: 1024px) {
-
     .hero-img {
         width: 300px;
         height: 600px;
-        margin-top: 50px; 
+        margin-top: 50px;
         margin-right: 250px;
     }
-    
+
     .hero-text h1 {
         color: white;
         margin-top: 50px;
         padding-left: 300px;
         font-weight: 40px;
     }
-    
+
     .hero-text h1 span {
         color: red;
     }
-    
+
     .hero-text p {
         text-align: left;
         padding-left: 150px;
         font-size: 30px;
     }
-    
+
     .hero-text a {
         margin-left: 225px;
         font-size: 25px;
     }
-    
+
     .card {
         max-width: 90%;
         padding: 15px;
         overflow: hidden;
-
     }
 
     h1 {
@@ -302,16 +291,16 @@ footer a {
     }
 
     .card-title3 h1 {
-    font-size: 35px;
-    margin-left: 85px;
-    margin-top: -120px;
-    }
-    .card-text3 p {
-    font-size: 35px;
-    margin-left: -1px;
-    margin-top: -50px;
+        font-size: 35px;
+        margin-left: 85px;
+        margin-top: -120px;
     }
 
+    .card-text3 p {
+        font-size: 35px;
+        margin-left: -1px;
+        margin-top: -50px;
+    }
 
     .card-title h1 {
         margin-left: 200px;
@@ -322,26 +311,27 @@ footer a {
         height: 1000px;
         width: 100%;
     }
-    
+
     .card-title h1 span {
         color: red;
     }
-    
+
     .card-title2 h1 {
         margin-right: 1500px;
         margin-top: 200px;
     }
+
     .card-text2 p {
         font-size: 25px;
         margin-left: 10px;
         margin-top: -25px;
     }
+
     .card-text0 p {
         font-size: 25px;
         margin-left: 150px;
     }
 
-    
     .card-text p, .card-text ul li {
         font-size: 0.9rem;
         align-items: center;
@@ -359,7 +349,7 @@ footer a {
     .download-info {
         margin-top: 180px;
         margin-left: -500px;
-    }   
+    }
 
     .btn-danger {
         width: 500px;
@@ -368,7 +358,6 @@ footer a {
     }
 }
 
-/* Media query per schermi piccoli (max-width: 768px) */
 @media (max-width: 768px) {
     .card {
         max-width: 95%;
@@ -402,7 +391,6 @@ footer a {
 
     .card-text3 .h1 {
         margin-top: -800px;
-
     }
 
     .card-image3 {
@@ -411,16 +399,16 @@ footer a {
         width: 10px;
         margin-right: 800px;
     }
-    
+
     .card-title3 {
         margin-top: 35px;
         margin-left: -85px;
     }
-    
+
     .card-text3 {
         margin-top: -25px;
     }
-    
+
     .card-text p, .card-text ul li {
         font-size: 0.8rem;
     }
@@ -431,55 +419,4 @@ footer a {
         margin-left: 15px;
     }
 
-    .card-content3 img {
-        height: 250px;
-        width: 650px;
-        margin-left: 15px;
-    }
-
-    .card-content3 .h1 {
-        height: 250px;
-        width: 650px;
-        margin-left: 15px;
-    }
-    
-    .card-image3 {
-        height: 850px;
-    }
-    .python-icon {
-        font-size: 250px;
-        margin-left: -25px;
-        margin-top: 50px;
-    }
-}
-
-/* Media query per schermi molto piccoli (max-width: 576px) */
-@media (max-width: 576px) {
-    .card {
-        max-width: 100%;
-        padding: 10px;
-    }
-
-    h1 {
-        font-size: 20px;
-    }
-
-    p {
-        font-size: 14px;
-    }
-
-    footer img {
-        width: 60px;
-        height: auto;
-    }
-
-    footer p {
-        font-size: 12px;
-    }
-
-    .python-icon {
-        font-size: 100px;
-        margin-left: 20px;
-        margin-top: -50px;
-    }
 }
