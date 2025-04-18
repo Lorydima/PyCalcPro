@@ -26,7 +26,7 @@ You can access PyCalc Pro Website from this link: <a href="https://lorydima.gith
 
 # 💾Downolad PyCalc Pro V1.3
 For donwload PyCalc Pro V.1.3 follow this link, the software is only for Windows OS:
-<a href="https://github.com/Lorydima/PyCalcPro/releases/download/Relases_PyCalc_Pro_V1.2/PyCalc_Pro_V1.2.zip" download>Download PyCalc Pro V1.3</a>
+<a href="https://github.com/Lorydima/PyCalcPro/releases/download/RelasesV1.3/PyCalc_Pro_V1.3_Windows.zip" download>Download PyCalc Pro V1.3</a>
 
 Before you use the software please read the license at this link: <a href="https://github.com/Lorydima/PyCalcPro?tab=License-1-ov-file#">License</a>
 
