@@ -1,6 +1,6 @@
 # PyCalc Pro 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/bc9e6c14-4353-4d28-a4aa-a930f0c559f5" alt="PyCalc_Pro_V1.3_README_Img" width="400" height="900">
+  <img src="https://github.com/user-attachments/assets/e09b2174-3ebd-4eda-a58d-b1aadbe045cf" alt="PyCalc_Pro_V1.3_README_Img" width="400" height="900">
 </div>
 
 # 📁Repository Info
