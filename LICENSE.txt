@@ -2,6 +2,7 @@ Thank you for downloading PyCalc Pro V1.3. Before using the software, please tak
 
 LICENSE:
 
+- By software we mean the entire program folder that was downloaded. So the EXE file, the DATA.json file and the .ICO Logo file.
 - You can freely download and use this application.
 - You can view the source code on Git Hub for educational or personal purposes.
 - It is not permitted to republish either the application or the source code, in any form or for any purpose, without explicit written permission from me.

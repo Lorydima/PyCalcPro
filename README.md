@@ -14,7 +14,7 @@
 ![GitHub Pull Requests](https://img.shields.io/github/issues-pr/Lorydima/PyCalcPro)
 
 # ℹ️Description
-PyCalc Pro V1.3 is a calculator developed in python. The calculator functions are:
+PyCalc Pro V1.4 is a calculator developed in python. The calculator functions are:
 - Base math operations
 - Advanced math operations
 - Unit converter
@@ -24,9 +24,9 @@ PyCalc Pro V1.3 is a calculator developed in python. The calculator functions ar
 <img src="https://github.com/user-attachments/assets/3ae21379-618f-4b04-9158-7047ea394874" alt="PyCalc_Pro_V1.1_README_Img" width="1200" height="400">
 You can access PyCalc Pro Website from this link: <a href="https://lorydima.github.io/PyCalcPro/" target="_blank">PyCalc Pro Website</a>
 
-# 💾Downolad PyCalc Pro V1.3
-For donwload PyCalc Pro V.1.3 follow this link, the software is only for Windows OS:
-<a href="https://github.com/Lorydima/PyCalcPro/releases/download/RelasesV1.3/PyCalc_Pro_V1.3_Windows.zip" download>Download PyCalc Pro V1.3</a>
+# 💾Downolad PyCalc Pro V1.4
+For donwload PyCalc Pro V.1.4 follow this link, the software is only for Windows OS:
+<a href="https://github.com/Lorydima/PyCalcPro/releases/download/RelasesV1.3/PyCalc_Pro_V1.3_Windows.zip" download>Download PyCalc Pro V1.4</a>
 
 Before you use the software please read the license at this link: <a href="https://github.com/Lorydima/PyCalcPro?tab=License-1-ov-file#">License</a>
 
