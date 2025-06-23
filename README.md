@@ -1,6 +1,6 @@
 # PyCalc Pro 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/e09b2174-3ebd-4eda-a58d-b1aadbe045cf" alt="PyCalc_Pro_V1.3_README_Img" width="400" height="900">
+  <img src="https://github.com/user-attachments/assets/d7d60c6c-ea95-42aa-8d28-e0819e5ac474" alt="PyCalc_Pro_V1.4_README_Img" width="400" height="900">
 </div>
 
 # 📁Repository Info
@@ -26,7 +26,7 @@ You can access PyCalc Pro Website from this link: <a href="https://lorydima.gith
 
 # 💾Downolad PyCalc Pro V1.4
 For donwload PyCalc Pro V.1.4 follow this link, the software is only for Windows OS:
-<a href="https://github.com/Lorydima/PyCalcPro/releases/download/RelasesV1.3/PyCalc_Pro_V1.3_Windows.zip" download>Download PyCalc Pro V1.4</a>
+<a href="https://github.com/Lorydima/PyCalcPro/releases/download/Relases_PyCalc_Pro_V1%2C4/PyCalc_Pro_V1.4_Windows.zip" download>Download PyCalc Pro V1.4</a>
 
 Before you use the software please read the license at this link: <a href="https://github.com/Lorydima/PyCalcPro?tab=License-1-ov-file#">License</a>
 
