@@ -1,4 +1,4 @@
-Thank you for downloading PyCalc Pro V1.3. Before using the software, please take a moment to review license outlined below. Your compliance with these license ensures the responsible and appropriate use of this application.
+Thank you for downloading PyCalc Pro V1.4. Before using the software, please take a moment to review license outlined below. Your compliance with these license ensures the responsible and appropriate use of this application.
 
 LICENSE:
 
