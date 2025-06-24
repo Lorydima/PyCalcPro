@@ -29,10 +29,10 @@ if not os.path.exists(logo_path):
 
 # Operations Memory File Path
 def get_operations_file_path():
-    if hasattr(sys, '_MEIPASS'):  
+    if hasattr(sys, '_MEIPASS'):
         return os.path.join(sys._MEIPASS, "PyCalcPro_V1.4_DATA.json")
-    else: 
-        return os.path.join(os.path.dirname(__file__), "PyCalcPro_V1.4_DATA.json")
+    else:
+        return os.path.join(os.path.dirname(os.path.abspath(sys.argv[0])), "PyCalcPro_V1.4_DATA.json")
 
 operations_file_path = get_operations_file_path()
 
