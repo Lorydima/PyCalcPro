@@ -5,7 +5,6 @@
 
 # 📁Repository Info
 ![GitHub last commit](https://img.shields.io/github/last-commit/Lorydima/PyCalcPro)
-![GitHub top language](https://img.shields.io/github/languages/top/Lorydima/PyCalcPro)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Lorydima/PyCalcPro)
 ![GitHub Issues](https://img.shields.io/github/issues/Lorydima/PyCalcPro)
 ![GitHub Pull Requests](https://img.shields.io/github/issues-pr/Lorydima/PyCalcPro)
