@@ -4,9 +4,7 @@
 </div>
 
 # 📁Repository Info
-![GitHub stars](https://img.shields.io/github/stars/Lorydima/PyCalcPro)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Lorydima/PyCalcPro)
-![GitHub version](https://img.shields.io/github/v/release/Lorydima/PyCalcPro)
 ![GitHub top language](https://img.shields.io/github/languages/top/Lorydima/PyCalcPro)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Lorydima/PyCalcPro)
 ![GitHub Issues](https://img.shields.io/github/issues/Lorydima/PyCalcPro)
