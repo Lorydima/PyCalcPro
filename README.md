@@ -26,9 +26,9 @@ For donwload PyCalc Pro V.1.5 follow this link, the software is only for Windows
 <a href="https://github.com/Lorydima/PyCalcPro/releases/download/Relases_PyCalc_Pro_V1.5/PyCalc_Pro_V1.5_Windows.zip" download>Download PyCalc Pro V1.5</a>
 
 > ## ⚠️ For proper program execution, please read the notes below
->- **Using McAfee antivirus?**  
+> - **Using McAfee antivirus?**  
   It may block the program from running. To ensure safe execution, add the program to the *excluded files* list under the **Real-Time Scanning** settings.
->- **Important:**  
+> - **Important:**  
   Although the EXE file is self-contained, **do not delete the `.json` or `.ico` or another tipe files** in the download folder — they are required for the program to function correctly.
 
 Before you use the software please read the license at this link: <a href="https://github.com/Lorydima/PyCalcPro?tab=License-1-ov-file#">License</a>
