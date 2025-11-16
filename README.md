@@ -4,13 +4,19 @@
 </div>
 
 # 📁Repository Info
-![GitHub stars](https://img.shields.io/github/stars/Lorydima/PyCalcPro)
-![GitHub last commit](https://img.shields.io/github/last-commit/Lorydima/PyCalcPro)
-![GitHub version](https://img.shields.io/github/v/release/Lorydima/PyCalcPro)
-![GitHub top language](https://img.shields.io/github/languages/top/Lorydima/PyCalcPro)
-![GitHub repo size](https://img.shields.io/github/repo-size/Lorydima/PyCalcPro)
-![GitHub Issues](https://img.shields.io/github/issues/Lorydima/PyCalcPro)
-![GitHub Pull Requests](https://img.shields.io/github/issues-pr/Lorydima/PyCalcPro)
+![GitHub stars](https://img.shields.io/github/stars/Lorydima/PyCalcPro?color=gold)
+![GitHub top language](https://img.shields.io/github/languages/top/Lorydima/PyCalcPro?color=informational)
+![GitHub repo size](https://img.shields.io/github/repo-size/Lorydima/PyCalcPro?color=red)
+![Status: Official](https://img.shields.io/badge/status-official-success)
+![Platform: Windows](https://img.shields.io/badge/platform-Windows-blue)
+
+![GitHub last commit](https://img.shields.io/github/last-commit/Lorydima/PyCalcPro?color=lightblue)
+![GitHub version](https://img.shields.io/github/v/release/Lorydima/PyCalcPro?color=blueviolet)
+![GitHub Pull Requests](https://img.shields.io/github/issues-pr/Lorydima/PyCalcPro?color=purple)
+![GitHub Issues](https://img.shields.io/github/issues/Lorydima/PyCalcPro?color=purple)
+
+![Contributions welcome](https://img.shields.io/badge/contributions-welcome-green)
+![License: Source available](https://img.shields.io/badge/license-source--available-blue)
 
 # ℹ️Description
 PyCalc Pro V1.5 is a calculator developed in python. The calculator functions are:
@@ -24,18 +30,22 @@ PyCalc Pro V1.5 is a calculator developed in python. The calculator functions ar
 You can access PyCalc Pro Website from this link: <a href="https://lorydima.github.io/PyCalcPro/" target="_blank">PyCalc Pro Website</a>
 
 # 💾Downolad PyCalc Pro V1.5
-For donwload PyCalc Pro V.1.5 follow this link, the software is only for Windows OS:
+For donwload PyCalc Pro V.1.5 follow this link, the software is only for **Windows OS:**
 <a href="https://github.com/Lorydima/PyCalcPro/releases/download/Relases_PyCalc_Pro_V1.5/PyCalc_Pro_V1.5_Windows.zip" download>Download PyCalc Pro V1.5</a>
 
-> ## ⚠️ For proper program execution, please read the notes below
-> - **Using McAfee antivirus?**  
-  It may block the program from running. To ensure safe execution, add the program to the *excluded files* list under the **Real-Time Scanning** settings.
+> [!WARNING]
+> **For proper program execution, please read the notes below**
+> - **Using an antivirus?**  
+>   It may block the program from running. To ensure safe execution, add the program to the *excluded files* list under the **Real-Time Scanning** settings.
 > - **Important:**  
-  Although the EXE file is self-contained, **do not delete the `.json` or `.ico` or another tipe files** in the download folder — they are required for the program to function correctly.
+>   **Do not delete the `.json` or `.ico` or other file types** in the download folder—they are required for the program to function correctly.
 
 Before you use the software please read the license at this link: <a href="https://github.com/Lorydima/PyCalcPro?tab=License-1-ov-file#">License</a>
 
 # 🛠️Bug reports and issue
-I strive to make this project as reliable and robust as possible, but I acknowledge that bugs can happen. If you encounter any issues or identify bugs in the code, I encourage you to open an issue on GitHub. Your feedback is incredibly valuable and helps me improve the project.
+I do my best to keep this project stable and reliable, but bugs can still happen.
+If you spot any issues or errors, feel free to open a GitHub issue.
+Your feedback really helps me improve the project.
 
-Thank you for your contributions and for helping me make this project better!❤️
+Thanks for contributing and helping make this project better from *LDM Dev*❤️ 
+
