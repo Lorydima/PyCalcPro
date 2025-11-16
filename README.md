@@ -29,7 +29,7 @@ PyCalc Pro V1.5 is a calculator developed in python. The calculator functions ar
 <img src="https://github.com/user-attachments/assets/278be1fc-b2ff-4aeb-94f3-32ec7c7856b7" alt="PyCalc_Pro_V1.1_README_Img" width="1200" height="400">
 You can access PyCalc Pro Website from this link: <a href="https://lorydima.github.io/PyCalcPro/" target="_blank">PyCalc Pro Website</a>
 
-# 💾Downolad PyCalc Pro V1.5
+# 💾Downolad PyCalc Pro 
 For donwload PyCalc Pro V.1.5 follow this link, the software is only for **Windows OS:**
 <a href="https://github.com/Lorydima/PyCalcPro/releases/download/Relases_PyCalc_Pro_V1.5/PyCalc_Pro_V1.5_Windows.zip" download>Download PyCalc Pro V1.5</a>
 
