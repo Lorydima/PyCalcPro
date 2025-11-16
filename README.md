@@ -38,7 +38,7 @@ For donwload PyCalc Pro V.1.5 follow this link, the software is only for **Windo
 > - **Using an antivirus?**  
 >   It may block the program from running. To ensure safe execution, add the program to the *excluded files* list under the **Real-Time Scanning** settings.
 > - **Important:**  
->   **Do not delete the `.json` or `.ico` or other file types** in the download folder—they are required for the program to function correctly.
+>   **Do not delete the `.json` or `.ico` or other file types** in the download folder they are required for the program to function correctly.
 
 Before you use the software please read the license at this link: <a href="https://github.com/Lorydima/PyCalcPro?tab=License-1-ov-file#">License</a>
 
