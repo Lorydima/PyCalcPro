@@ -119,7 +119,7 @@
     <div class="card">
         <h1 style="text-align: center;">Download <span style="color: red;">PyCalc Pro V1.5</span></h1>
         <div style="display: flex; align-items: center; margin-top: 80px;">
-            <a href="https://github.com/Lorydima/PyCalcPro/releases/download/Relases_PyCalc_Pro_V1.5/PyCalc_Pro_V1.5_Windows.zip" download class="btn btn-danger" style="font-size: 50px; display: flex; align-items: center;">
+            <a id="download-btn" href="https://github.com/Lorydima/PyCalcPro/releases/download/Relases_PyCalc_Pro_V1.5/PyCalc_Pro_V1.5_Windows.zip" download class="btn btn-danger" style="font-size: 50px; display: flex; align-items: center;">
                 <i class="fas fa-download" style="margin-right: 10px;"></i> Download Now
             </a>
             <div class="download-info">
@@ -212,7 +212,34 @@
         <p class="website-info-text" style="font-size: 14px; margin: 10px; color: black;">
             This website is hosted on <a href="https://pages.github.com/" target="_blank" style="color:#0d55ad;text-decoration:underline;">GitHub Pages</a>.
         </p>
-    </div>
+        </div>
+
+        <script>
+        (function(){
+            const btn = document.getElementById('download-btn');
+            if (!btn) return;
+            const message = "Using an antivirus?\n\nIt may block the program from running. To ensure safe execution, add the program to the excluded files list under the Real-Time Scanning settings.\n\nImportant: Do not delete the .json or .ico or other file types in the download folder — they are required for the program to function correctly.";
+
+            function notifyBrowser() {
+                if (!('Notification' in window)) return;
+                if (Notification.permission === 'granted') {
+                    new Notification('NeonNote — Download info', { body: message });
+                } else if (Notification.permission !== 'denied') {
+                    Notification.requestPermission().then(function(permission){
+                        if (permission === 'granted') new Notification('NeonNote — Download info', { body: message });
+                    });
+                }
+            }
+
+            btn.addEventListener('click', function(e){
+                e.preventDefault();
+                notifyBrowser();
+                alert(message);
+                const href = this.href;
+                setTimeout(function(){ window.location.href = href; }, 150);
+            });
+        })();
+        </script>
 
 </body>
 </html>
