@@ -6,6 +6,8 @@ PyCalc Pro V1.5 is a calculator with basic math operations, advanced math operat
 Git Hub Repository Link: "https://github.com/Lorydima/PyCalcPro"
 
 PyCalc Pro Website link: "https://lorydima.github.io/PyCalcPro/"
+
+Before you use this code read the license in the LICENSE.txt or on Git Hub Repository.
 '''
 # Library for app Dev.
 from tkinter import Tk, Canvas, Entry, StringVar, Toplevel, Label, Button, PhotoImage
@@ -32,12 +34,9 @@ if not os.path.exists(logo_path):
 # Operations Memory File Path
 def get_operations_file_path():
     filename = "PyCalcPro_V1.5_DATA.json"
-    # For PyInstaller: Save to the folder where the .exe is located
     if hasattr(sys, 'frozen'):
-        # Running as compiled exe
         app_dir = os.path.dirname(sys.executable)
     else:
-        # Running as script
         app_dir = os.path.dirname(os.path.abspath(__file__))
     
     return os.path.join(app_dir, filename)
@@ -156,7 +155,7 @@ def open_license_window():
         license_window.iconbitmap(logo_path)
         
     # Title Label
-    license_label = Label(license_window, text="PyCalc Pro Version 1.5 License", font=("Arial", 18, "bold"), bg="#1E1E1E", fg="white")
+    license_label = Label(license_window, text="PyCalc Pro EULA", font=("Arial", 18, "bold"), bg="#1E1E1E", fg="white")
     license_label.pack(pady=10)
 
     # Create frame for text and scrollbar
@@ -173,62 +172,71 @@ def open_license_window():
     scrollbar.config(command=license_text_widget.yview)
     
     # License Text
-    license_text = """PyCalc Pro — Source-Available License
+    license_text = """PyCalc Pro — Source-Available License  
 
-This license applies to PyCalc Pro latest version and all future versions of the software unless otherwise stated.
+This license applies to PyCalc Pro latest version and all future versions of the software unless otherwise stated.  
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
 
-1. SCOPE OF THE SOFTWARE
+1. SCOPE OF THE SOFTWARE  
 
-"Software" refers to all files included in the downloaded folder, including but not limited to:
-  • The executable file (.exe)
-  • The data file (DATA.json)
-  • The icon file (.ico)
-  • Any other files distributed with the application
+"Software" refers to all files included in the downloaded folder, including but not limited to:  
+  • The executable file (.exe)  
+  • The data file (.json)  
+  • The icon file (.ico)  
+  • The license file (.txt)  
+  • Any other files distributed with the application  
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
 
-2. SOURCE CODE ACCESS
+2. SOURCE CODE ACCESS  
 
-The source code is available on GitHub for educational and personal reference only.
+The source code is available on GitHub for educational, personal reference and transparency from LDM Dev.  
 
-✓ You ARE allowed to:
-  • View and study the code for learning purposes
+✓ You ARE allowed to:  
+  • View and study the code  
+  • Download the source code (.py) and requirements (.txt) on your PC  
+  • Fork and modify the code for personal or educational purposes  
+  • Submit bug reports, improvements, or new features via GitHub  
 
-✗ You are NOT allowed to:
-  • Reuse, modify, or incorporate the code into your own projects
-  • Distribute the code in any form
-  • Use the software or its code for commercial purposes
+✗ You are NOT allowed to:  
+  • Use the software or its code for commercial purposes  
+  • Remove or alter attribution to contributors or to the developer LDM Dev  
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
 
-3. REDISTRIBUTION RESTRICTIONS
+3. REDISTRIBUTION RESTRICTIONS  
 
-  • You may not republish or redistribute the software or its source code, in whole or in part, without explicit written permission from LDM Dev.
-  • Forking or copying the GitHub repository is not permitted.
+  • You may not republish or redistribute the software or its source code for commercial purposes.  
+  • Non-commercial redistribution (such as forks, copies, or modifications shared on GitHub) is permitted, provided that:  
+    – The license terms are preserved and not modified  
+    – The redistributed version remains free and non-commercial  
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
 
-4. OWNERSHIP
+4. OWNERSHIP  
 
-All components of the software and its source code are the intellectual property of LDM Dev.
+All components of the software and its source code remain the intellectual property of LDM Dev.  
+Contributors, including those who provide bug reports, improvements, or new features, will be recognized on GitHub for their contributions, which are licensed back to the project under the same terms.  
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
 
-5. RESPECT FOR CREATIVE WORK
+5. WARRANTIES  
 
-Please respect the effort and creativity behind this project. Do not claim it as your own or use it in ways that disregard the author's intent.
+The software is provided "as is", without any warranties, express or implied, including but not limited to fitness for a particular purpose.  
+Use it at your own risk.  
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
 
-6. DISCLAIMER
+6. ACCEPTANCE OF LICENSE  
 
-The software is provided "as is", without any warranties, express or implied. Use it at your own risk.
+This license is also included within the program as an End User License Agreement (EULA).  
+You must accept the license terms in order to use PyCalc Pro. If you do not accept, the program will not run.  
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
 
-Thank You for your collaboration from LDM Dev. ❤️
+Thank You for collaboration from LDM Dev. 
+
 """
     
     license_text_widget.insert("1.0", license_text)
@@ -239,7 +247,7 @@ def open_math_advanced_operations_window():
     def math_button_click(event):
         text = event.widget["text"]
         if text == "π":
-            text = "pi"  
+            text = "3,14"  
         elif text == "|x|":
             text = "abs("
         elif text == "x^x":
@@ -370,7 +378,7 @@ def check_and_show_license():
             license_window.iconbitmap(logo_path)
         license_window.protocol("WM_DELETE_WINDOW", on_close)
 
-        Label(license_window, text="PyCalc Pro V1.5 LICENSE", font=("Arial", 20, "bold"), fg="white", bg="#1E1E1E").pack(pady=10)
+        Label(license_window, text="PyCalc Pro EULA", font=("Arial", 20, "bold"), fg="white", bg="#1E1E1E").pack(pady=10)
 
         # Create frame for text and scrollbar
         frame = Label(license_window, bg="#1E1E1E")
@@ -385,63 +393,71 @@ def check_and_show_license():
         license_text_widget.pack(side="left", fill="both", expand=True)
         scrollbar.config(command=license_text_widget.yview)
 
-        license_text = """PyCalc Pro — Source-Available License
+        license_text = """PyCalc Pro — Source-Available License  
 
-This license applies to PyCalc Pro latest version and all future versions of the software unless otherwise stated.
+This license applies to PyCalc Pro latest version and all future versions of the software unless otherwise stated.  
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
 
-1. SCOPE OF THE SOFTWARE
+1. SCOPE OF THE SOFTWARE  
 
-"Software" refers to all files included in the downloaded folder, including but not limited to:
-  • The executable file (.exe)
-  • The data file (DATA.json)
-  • The icon file (.ico)
-  • Any other files distributed with the application
+"Software" refers to all files included in the downloaded folder, including but not limited to:  
+  • The executable file (.exe)  
+  • The data file (.json)  
+  • The icon file (.ico)  
+  • The license file (.txt)  
+  • Any other files distributed with the application  
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
 
-2. SOURCE CODE ACCESS
+2. SOURCE CODE ACCESS  
 
-The source code is available on GitHub for educational and personal reference only.
+The source code is available on GitHub for educational, personal reference and transparency from LDM Dev.  
 
-✓ You ARE allowed to:
-  • View and study the code for learning purposes
+✓ You ARE allowed to:  
+  • View and study the code  
+  • Download the source code (.py) and requirements (.txt) on your PC  
+  • Fork and modify the code for personal or educational purposes  
+  • Submit bug reports, improvements, or new features via GitHub  
 
-✗ You are NOT allowed to:
-  • Reuse, modify, or incorporate the code into your own projects
-  • Distribute the code in any form
-  • Use the software or its code for commercial purposes
+✗ You are NOT allowed to:  
+  • Use the software or its code for commercial purposes  
+  • Remove or alter attribution to contributors or to the developer LDM Dev  
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
 
-3. REDISTRIBUTION RESTRICTIONS
+3. REDISTRIBUTION RESTRICTIONS  
 
-  • You may not republish or redistribute the software or its source code, in whole or in part, without explicit written permission from 
-    LDM Dev.
-  • Forking or copying the GitHub repository is not permitted.
+  • You may not republish or redistribute the software or its source code for commercial purposes.  
+  • Non-commercial redistribution (such as forks, copies, or modifications shared on GitHub) is permitted, provided that:  
+    – The license terms are preserved and not modified  
+    – The redistributed version remains free and non-commercial  
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
 
-4. OWNERSHIP
+4. OWNERSHIP  
 
-All components of the software and its source code are the intellectual property of LDM Dev.
+All components of the software and its source code remain the intellectual property of LDM Dev.  
+Contributors, including those who provide bug reports, improvements, or new features, will be recognized on GitHub for their contributions, which are licensed back to the project under the same terms.  
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
 
-5. RESPECT FOR CREATIVE WORK
+5. WARRANTIES  
 
-Please respect the effort and creativity behind this project. Do not claim it as your own or use it in ways that disregard the author's intent.
+The software is provided "as is", without any warranties, express or implied, including but not limited to fitness for a particular purpose.  
+Use it at your own risk.  
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
 
-6. DISCLAIMER
+6. ACCEPTANCE OF LICENSE  
 
-The software is provided "as is", without any warranties, express or implied. Use it at your own risk.
+This license is also included within the program as an End User License Agreement (EULA).  
+You must accept the license terms in order to use PyCalc Pro. If you do not accept, the program will not run.  
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
 
-Thank You for your collaboration from LDM Dev. ❤️
+Thank You for collaboration from LDM Dev. 
+
 """
         
         license_text_widget.insert("1.0", license_text)
