@@ -40,7 +40,7 @@ For donwload PyCalc Pro V.1.5 follow this link, the software is only for **Windo
 > - **Important:**  
 >   **Do not delete the `.json` or `.ico` or other file types** in the download folder they are required for the program to function correctly.
 
-Before you use the software please read the license at this link: <a href="https://github.com/Lorydima/PyCalcPro?tab=License-1-ov-file#">License</a>
+Before you use the software please read the source-avaible license at this link: <a href="https://github.com/Lorydima/PyCalcPro?tab=License-1-ov-file#">License</a>
 
 # 🛠️Bug reports and issue
 I do my best to keep this project stable and reliable, but bugs can still happen.
@@ -49,3 +49,11 @@ Your feedback really helps me improve the project.
 
 Thanks for contributing and helping make this project better from *LDM Dev*❤️ 
 
+# 🧑‍💻 Run from source
+
+Clone the repository:
+```bash
+git clone https://github.com/Lorydima/PyCalcPro.git
+cd PyCalcPro
+pip install -r requirements.txt
+python PyCalc_Pro_V1.5.py
