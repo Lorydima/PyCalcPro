@@ -1,7 +1,7 @@
 # PyCalc Pro V1.6 Source Code Date: 29/12/2025 Developer: LDM Dev. 
 
 '''
-PyCalc Pro V1.5 is a calculator with basic math operations, advanced math operations and a unit converter function for mass and length 
+PyCalc Pro V1.6 is a calculator with basic math operations, advanced math operations and a unit converter function for mass and length 
 
 Git Hub Repository Link: "https://github.com/Lorydima/PyCalcPro"
 
@@ -12,7 +12,7 @@ Before you use this code read the license in the LICENSE.txt or on Git Hub Repos
 
 # Library for app Dev.
 import tkinter as tk
-from tkinter import Tk, Canvas, Entry, StringVar, Toplevel, Label, Button, PhotoImage, Text, Scrollbar
+from tkinter import Tk, Canvas, Entry, StringVar, Toplevel, Label, Button, PhotoImage, Text, Scrollbar, Frame
 import math
 import os
 import sys
@@ -124,7 +124,7 @@ def open_credit_window():
             credit_window.iconbitmap(logo_path)
         except Exception:
             pass
-    credit_label = Label(credit_window, text="PyCalc Pro Version 1.5\nDeveloper: LDM Dev", font=("Arial", 18), bg="#1E1E1E", fg="white")
+    credit_label = Label(credit_window, text="PyCalc Pro Version 1.6\nDeveloper: LDM Dev", font=("Arial", 18), bg="#1E1E1E", fg="white")
     credit_label.pack(pady=10)
     try:
         if os.path.exists(logo_path):
@@ -155,50 +155,83 @@ def open_license_window():
     license_window.geometry("900x600")
     license_window.configure(bg="#1E1E1E")
     license_window.resizable(True, True)
-    
+
     if logo_path:
         try:
             license_window.iconbitmap(logo_path)
         except Exception:
             pass
-        
+
     # Title Label
-    license_label = Label(license_window, text="PyCalc Pro - MIT License", font=("Arial", 18, "bold"), bg="#1E1E1E", fg="white")
+    license_label = Label(
+        license_window,
+        text="PyCalc Pro - MIT License",
+        font=("Arial", 18, "bold"),
+        bg="#1E1E1E",
+        fg="white"
+    )
     license_label.pack(pady=10)
 
-    # Create frame for text and scrollbar
-    frame = Label(license_window, bg="#1E1E1E")
+    # Frame for text and scrollbar
+    frame = Frame(license_window, bg="#1E1E1E")
     frame.pack(fill="both", expand=True, padx=10, pady=10)
-    
+
     # Scrollbar
     scrollbar = Scrollbar(frame)
     scrollbar.pack(side="right", fill="y")
-    
-    # Text widget with scrollbar
-    license_text_widget = Text(frame, bg="#2E2E2E", fg="white", font=("Arial", 11), wrap="word", yscrollcommand=scrollbar.set)
+
+    # Text widget
+    license_text_widget = Text(
+        frame,
+        bg="#2E2E2E",
+        fg="white",
+        font=("Arial", 11),
+        wrap="word",
+        yscrollcommand=scrollbar.set
+    )
     license_text_widget.pack(side="left", fill="both", expand=True)
     scrollbar.config(command=license_text_widget.yview)
-    
-    # Try to read LICENSE.txt (preferred) or LICENSE from project root
-    license_text = "MIT License\n\nCopyright (c) 2025 LDM Dev\n\nPermission is hereby granted, free of charge..."
+
+    # Default MIT License (fallback)
+    license_text = """MIT License
+
+Copyright (c) 2025 LDM Dev
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+"""
+
+    # Try to read LICENSE file from disk (preferred)
     try:
-        # Prefer a LICENSE.txt file at the repository root; fall back to LICENSE
-        base_dir = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..'))
+        base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
         candidates = [
-            os.path.join(base_dir, 'LICENSE.txt'),
             os.path.join(base_dir, 'LICENSE'),
-            os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'LICENSE.txt'),
-            os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'LICENSE'),
+            os.path.join(base_dir, 'LICENSE.txt'),
         ]
-        for license_file_path in candidates:
-            license_file_path = os.path.normpath(license_file_path)
-            if os.path.exists(license_file_path):
-                with open(license_file_path, 'r', encoding='utf-8') as f:
+
+        for path in candidates:
+            if os.path.exists(path):
+                with open(path, 'r', encoding='utf-8') as f:
                     license_text = f.read()
                 break
     except Exception:
         pass
-    
+
     license_text_widget.insert("1.0", license_text)
     license_text_widget.config(state="disabled")
 
@@ -207,7 +240,7 @@ def open_math_advanced_operations_window():
     def math_button_click(event):
         text = event.widget["text"]
         if text == "π":
-            text = "3,14"  
+            text = str(math.pi)
         elif text == "|x|":
             text = "abs("
         elif text == "x^x":
