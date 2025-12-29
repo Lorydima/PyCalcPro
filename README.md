@@ -73,38 +73,27 @@ For donwload PyCalc Pro V.1.5 follow this link, the software is only for **Windo
 > [!WARNING]
 > **For proper program execution, please read the notes below**
 > - **AV Alert**  
->  This application is distributed as a standalone .exe built with PyInstaller.
+>   This application is distributed as a standalone .exe built with PyInstaller.
 >   Some antivirus software may occasionally flag unsigned PyInstaller executables as false positives.
-
 >  **NOT disable your antivirus.**
 >  If your antivirus blocks the file, you can:
-
->  - verify the source code in this repository
->  - build the executable yourself from source
->  - or add the executable to your antivirus allow-list, if you trust the source
-
+>    verify the source code in this repository
+>    build the executable yourself from source
+>    or add the executable to your antivirus allow-list, if you trust the source
 >  No network access, telemetry, or background processes are used by this application.
-
 > - **Important:**  
->   **Do not delete the `.json` or `.ico` or other file types** in the download folder they are required for the program to function correctly.
+>   **Do not delete the `.json` or `.ico` or `.txt` other file types** in the download folder they are required for the program to function correctly.
 
-<<<<<<< HEAD
 # 🔗Clone Repository
 ```bash
 git clone https://github.com/Lorydima/PyCalcPro.git
 ```
-=======
-Before you use the software please read the source-avaible license at this link: <a href="https://github.com/Lorydima/PyCalcPro?tab=License-1-ov-file#">License</a>
-
->>>>>>> 316c887ffc3dd437e3206cb5fdd846fd2414db45
 # 🛠️Bug reports and issue
 I do my best to keep this project stable and reliable, but bugs can still happen.
 If you spot any issues or errors, feel free to open a GitHub issue.
 Your feedback really helps me improve the project.
 
 Thanks for contributing and helping make this project better from *LDM Dev*❤️ 
-<<<<<<< HEAD
+
 # 📄License 
 Before you use the software please read the **MIT License** license at this link: <a href="https://github.com/Lorydima/PyCalcPro?tab=License-1-ov-file#">License</a>
-=======
-
