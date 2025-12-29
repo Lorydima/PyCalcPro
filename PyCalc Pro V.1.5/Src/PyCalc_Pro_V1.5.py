@@ -524,9 +524,9 @@ def main_GUI_Function():
         if text == "=":
             input_var.set(evaluate_expression(input_var.get()))
         elif text == "CE":
-            input_var.set("")
-        elif text == "C":
             input_var.set(input_var.get()[:-1])
+        elif text == "C":
+            input_var.set("")
         elif text == "Credit":
             open_credit_window()
         elif text == "Unit Converter":
