@@ -62,7 +62,7 @@ The `docs/` folder contains files used for the project website and documentation
 
 
 # 🌐PyCalc Pro Webiste
-<img src="https://github.com/user-attachments/assets/278be1fc-b2ff-4aeb-94f3-32ec7c7856b7" alt="PyCalc_Pro_V1.1_README_Img" width="1200" height="400">
+<img src="https://github.com/user-attachments/assets/d02caa45-b13e-410c-ab4c-5c8e4d34142e" alt="PyCalc_Pro_V1.1_README_Img" width="1200" height="400">
 You can access PyCalc Pro Website from this link: <a href="https://lorydima.github.io/PyCalcPro/" target="_blank">PyCalc Pro Website</a>
 
 # 💾Downolad PyCalc Pro 
