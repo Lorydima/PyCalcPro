@@ -1,7 +1,7 @@
 [project]
 name = "PyCalc Pro"
 version = "1.6"
-description = "A simple calculator application for learning Python development"
+description = "PyCalc Pro is a professional and easy to use calculator developed in Python"
 authors = [{name = "LDM Dev"}]
 license = {text = "MIT"}
 readme = "README.md"
