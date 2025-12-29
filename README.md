@@ -95,4 +95,4 @@ Your feedback really helps me improve the project.
 Thanks for contributing and helping make this project better from *LDM Dev*❤️ 
 
 # 📄License 
-Before you use the software please read the **MIT License** license at this link: <a href="https://github.com/Lorydima/PyCalcPro?tab=License-1-ov-file#">License</a>
+Before you use the software please read the **MIT License** license at this link: <a href="https://github.com/Lorydima/PyCalcPro/blob/main/LICENSE.txt">License</a>
