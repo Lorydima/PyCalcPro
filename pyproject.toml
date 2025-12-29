@@ -1,0 +1,20 @@
+[project]
+name = "PyCalc Pro"
+version = "1.6"
+description = "A simple calculator application for learning Python development"
+authors = [{name = "LDM Dev"}]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = []
+
+[project.urls]
+Website = "https://lorydima.github.io/PyCalcPro/"
+Repository = "https://github.com/Lorydima/PyCalcPro"
+
+[tool.setuptools]
+packages = ["src.modules"]
+
+[build-system]
+requires = []
+build-backend = ""
