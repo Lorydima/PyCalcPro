@@ -49,8 +49,7 @@ PyCalc Pro V1.6/
 ├── LICENSE.txt                        # MIT License 
 ├── README.md                          # This file
 ├── CHANGELOG.md                       # Version history
-├── CONTRIBUTING.md                    # Contributing File
-├── TESTS.md                           # Manual test documentation
+├── CONTRIBUTING.md                    # Contributing File                       
 ├── pyproject.toml                     # Project metadata
 └── .gitattributes                     # Git repository
 ```
@@ -67,8 +66,8 @@ The `docs/` folder contains files used for the project website and documentation
 You can access PyCalc Pro Website from this link: <a href="https://lorydima.github.io/PyCalcPro/" target="_blank">PyCalc Pro Website</a>
 
 # 💾Downolad PyCalc Pro 
-For donwload PyCalc Pro V.1.5 follow this link, the software is only for **Windows OS:**
-<a href="https://github.com/Lorydima/PyCalcPro/releases/download/Relases_PyCalc_Pro_V1.5/PyCalcPro_V1.5_Windows.zip" download>Download PyCalc Pro V1.5</a>
+For donwload PyCalc Pro V.1.6 follow this link, the software is only for **Windows OS:**
+<a href="https://github.com/Lorydima/PyCalcPro/releases/download/PyCalc_Pro_V1.6_Relase/PyCalc_Pro_V1.6_Windows.zip" download>Download PyCalc Pro V1.5</a>
 
 > [!WARNING]
 > **For proper program execution, please read the notes below**
