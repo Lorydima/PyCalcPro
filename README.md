@@ -29,22 +29,22 @@ PyCalc Pro includes:
 ```
 PyCalc Pro V1.6/
 ├── src/                               # Application source code + assets
-│   ├── main.py                        # Entry point
+│   ├── main.py                        # Source Code
 │   |── pycalcpro_v1.6_data.json       # Operations history
 |   |── pycalcpro_v1.6_logo.ico        # Application icon
 │
-├── modules/                           # Calculation modules (kept at repo root)
+├── modules/                           # Calculation modules 
 │   ├── __init__.py
 │   ├── operations.py                  # Calculator math logic
 │   ├── state.py                       # State management and history
 │   ├── input_validation.py            # Input validation
-│   ├── ui.py                          # UI components (Tkinter)
+│   ├── ui.py                          # UI components 
 │   └── utils.py                       # Utility functions
 │
-├── docs/                              # Website documentation
+├── docs/                              # Website source code
 │   ├── index.html
 │   ├── style.css
-│   └── website images/
+│   └── website images
 │
 ├── LICENSE.txt                        # MIT License 
 ├── README.md                          # This file
@@ -55,10 +55,10 @@ PyCalc Pro V1.6/
 ```
 
 **About assets:**  
-Assets (icons and data files) are stored inside so the application can find them when run from source or packaged.
+Assets (`.json` and `.ico`) are stored inside so the application can find them when run from source or packaged.
 
 **About the docs/ folder:**  
-The `docs/` folder contains files used for the project website and documentation pages. It is **not required to run the application** locally.
+The `docs/` folder contains files used for source code of the website. It is **not required to run the application** locally.
 
 
 # 🌐PyCalc Pro Webiste
