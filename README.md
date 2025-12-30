@@ -5,6 +5,7 @@
 
 # ℹ️Repository Info 
 ![GitHub stars](https://img.shields.io/github/stars/Lorydima/PyCalcPro?color=gold)
+![GitHub top language](https://img.shields.io/github/languages/top/Lorydima/NeonNote?color=informational)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Lorydima/PyCalcPro?color=red)
 ![Platform: Windows](https://img.shields.io/badge/platform-windows-blue)
 
