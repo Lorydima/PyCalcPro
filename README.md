@@ -4,6 +4,7 @@
 </div>
 
 # ℹ️Repository Info 
+![GitHub stars](https://img.shields.io/github/stars/Lorydima/NeonNote?color=gold)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Lorydima/PyCalcPro?color=red)
 ![Platform: Windows](https://img.shields.io/badge/platform-windows-blue)
 
