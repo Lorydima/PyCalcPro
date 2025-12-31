@@ -27,31 +27,32 @@ PyCalc Pro includes:
 # 📁Project Structure
 
 ```
-PyCalc Pro V1.6/
-├── src/                               # Application source code + assets
-│   ├── main.py                        # Entry point
-│   |── pycalcpro_v1.6_data.json       # Operations history
-|   |── pycalcpro_v1.6_logo.ico        # Application icon
+PyCalcPro/
+├── src/                               # Application source code
+│   └── pycalcpro/                     # Main application package
+│       ├── __init__.py                # Package initializer
+│       ├── __main__.py                # Application entry point
+│       ├── ui.py                      # UI components 
+│       ├── operations.py              # Calculator math logic
+│       ├── state.py                   # State management and history
+│       ├── input_validation.py        # Input validation
+│       ├── utils.py                   # Utility functions
+│       │
+│       └── assets/                      # Application assets
+│           ├── pycalcpro_v1.6_data.json # Operations history
+│           └── pycalcpro_v1.6_logo.ico  # Application icon
 │
-├── modules/                           # Calculation modules (kept at repo root)
-│   ├── __init__.py
-│   ├── operations.py                  # Calculator math logic
-│   ├── state.py                       # State management and history
-│   ├── input_validation.py            # Input validation
-│   ├── ui.py                          # UI components (Tkinter)
-│   └── utils.py                       # Utility functions
-│
-├── docs/                              # Website documentation
+├── docs/                              # Website Source Code
 │   ├── index.html
 │   ├── style.css
-│   └── website images/
+│   └── images                         # Website images and ico
 │
-├── LICENSE.txt                        # MIT License 
-├── README.md                          # This file
+├── LICENSE.txt                        # MIT License
+├── README.md                          # Project overview 
 ├── CHANGELOG.md                       # Version history
-├── CONTRIBUTING.md                    # Contributing File                       
-├── pyproject.toml                     # Project metadata
-└── .gitattributes                     # Git repository
+├── CONTRIBUTING.md                    # Contribution guidelines
+├── pyproject.toml                     # Project metadata and build config
+└── .gitattributes                     # Git repository settings
 ```
 
 **About assets:**  
