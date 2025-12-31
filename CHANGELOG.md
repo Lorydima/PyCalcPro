@@ -4,20 +4,6 @@ All notable changes to this project will be documented in this file.
 This project uses semantic versioning.
 
 ## [1.6] - 2025-12-29
-### Added
-- Modular project structure (src/modules/)
-- Separate module files: operations, state, ui, input_validation, utils
-- Assets folder for icons and data files
-- Pathlib support for cross-platform compatibility
-
-### Fixed
-- Calculator C/CE button behavior (C clears all, CE clears last entry)
-- Input validation to prevent free-form text entry
-- Float precision issues using Decimal arithmetic
-- NoneType crashes after invalid input
-- User-friendly error messages instead of raw Python exceptions
-- License handling (MIT license only)
-
 ### Changed
 - Project structure reorganized to follow Python best practices
 - MIT License simplified (removed EULA requirement)
@@ -26,8 +12,6 @@ This project uses semantic versioning.
 ### Improved
 - Repository structure and file organization
 - Code readability and modularity
-- Error recovery and state management
-- Asset loading with pathlib
 
 ## [1.5] - 2025-11-15
 ### Fixed
