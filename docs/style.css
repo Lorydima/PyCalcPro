@@ -214,7 +214,7 @@ footer a {
 }
 
 .btn-danger {
-    width: 500px;
+    width: 550px;
     margin-top: -10px;
     margin-left: -10px;
 }
@@ -449,6 +449,30 @@ footer a {
         padding-right: 50px;
     }
 
+    footer.bg-white {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    footer .d-flex {
+        flex-direction: column;
+        align-items: center;
+        margin: 10px 0;
+    }
+
+    footer a {
+        font-size: 16px !important;
+        margin-right: 0 !important;
+    }
+
+    footer p[style*="font-size: 25px"] {
+        font-size: 18px !important;
+    }
+
     .card h1 {
         font-size: 1.5rem; 
         margin: 10px 0;
@@ -508,7 +532,7 @@ footer a {
     
 
     .card .btn-danger {
-        width: 320px;
+        width: 325px;
         margin: 0 auto; 
         background-color: red;
         color: white;
@@ -518,9 +542,38 @@ footer a {
         text-align: center;
         position: relative;
         top: 0; 
-        margin-top: -300px;
-        margin-left: 10px;
+        margin-top: -470px;
+        margin-left: 20px;
     }
-    
-    
+}
+
+@media (max-width: 480px) {
+    footer.bg-white {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    footer .d-flex {
+        width: 100%;
+        margin: 8px 0;
+    }
+
+    footer img {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 10px;
+    }
+
+    footer p {
+        font-size: 30px !important;
+        padding: 0 !important;
+    }
+
+    footer p[style*="font-size: 25px"] {
+        font-size: 20px !important;
+    }
+
+    footer a {
+        font-size: 30px !important;
+    }
 }

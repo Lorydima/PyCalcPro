@@ -1,6 +1,6 @@
 [project]
 name = "PyCalc Pro"
-version = "1.6"
+version = "1.7"
 description = "PyCalc Pro is a professional and easy to use calculator developed in Python"
 authors = [{name = "LDM Dev"}]
 license = {text = "MIT"}
@@ -13,7 +13,7 @@ Website = "https://lorydima.github.io/PyCalcPro/"
 Repository = "https://github.com/Lorydima/PyCalcPro"
 
 [tool.setuptools]
-packages = ["src.modules"]
+packages = ["src.pycalcpro"]
 
 [build-system]
 requires = []

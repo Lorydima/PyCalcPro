@@ -1,4 +1,4 @@
-# PyCalc Pro V1.6
+# PyCalc Pro V1.7
 <div align="center">
   <img src="https://github.com/user-attachments/assets/c27c154a-8c2d-4615-9cfb-885b824f65d4" alt="PyCalc_Pro_V1.4_README_Img" width="400" height="900">
 </div>
@@ -31,16 +31,16 @@ PyCalcPro/
 ├── src/                               # Application source code
 │   └── pycalcpro/                     # Main application package
 │       ├── __init__.py                # Package initializer
-│       ├── __main__.py                # Application entry point
-│       ├── ui.py                      # UI components 
-│       ├── operations.py              # Calculator math logic
-│       ├── state.py                   # State management and history
-│       ├── input_validation.py        # Input validation
-│       ├── utils.py                   # Utility functions
+│       ├── main.py                    # Application entry point
+│       ├── calculator.py              # Main GUI and calculator logic
+│       ├── operations.py              # Calculator math operations
+│       ├── storage.py                 # Operations history management
+│       ├── ui.py                      # UI windows and components
+│       ├── assets.py                  # Asset paths management
 │       │
-│       └── assets/                      # Application assets
-│           ├── pycalcpro_v1.6_data.json # Operations history
-│           └── pycalcpro_v1.6_logo.ico  # Application icon
+│       └── Assests/                   # Application assets
+│           ├── PyCalc_Pro_Logo.ico    # Application icon
+│           └── DATA.json              # Operations history storage
 │
 ├── docs/                              # Website Source Code
 │   ├── index.html
@@ -52,6 +52,7 @@ PyCalcPro/
 ├── CHANGELOG.md                       # Version history
 ├── CONTRIBUTING.md                    # Contribution guidelines
 ├── pyproject.toml                     # Project metadata and build config
+├── SECURITY.md                        # Security Policy
 └── .gitattributes                     # Git repository settings
 ```
 
@@ -59,7 +60,7 @@ PyCalcPro/
 Assets (icons and data files) are stored inside so the application can find them when run from source or packaged.
 
 **About the docs/ folder:**  
-The `docs/` folder contains files used for the project website and documentation pages. It is **not required to run the application** locally.
+The `docs/` folder contains files used for the source code of website. It is **not required to run the application** locally.
 
 
 # 🌐PyCalc Pro Webiste
@@ -67,8 +68,14 @@ The `docs/` folder contains files used for the project website and documentation
 You can access PyCalc Pro Website from this link: <a href="https://lorydima.github.io/PyCalcPro/" target="_blank">PyCalc Pro Website</a>
 
 # 💾Downolad PyCalc Pro 
-For donwload PyCalc Pro V.1.6 follow this link, the software is only for **Windows OS:**
-<a href="https://github.com/Lorydima/PyCalcPro/releases/download/PyCalc_Pro_V1.6_Relase/PyCalc_Pro_V1.6_Windows.zip" download>Download PyCalc Pro V1.5</a>
+To donwload PyCalc Pro V.1.7 follow this link, the software is for **Windows OS, for linux use Wine:**
+<a href="https://github.com/Lorydima/PyCalcPro/releases/download/PyCalc_Pro_V1.6_Relase/PyCalc_Pro_V1.6_Windows.zip" download>Download PyCalc Pro V1.7</a>
+
+**For macOS**  
+The EXE file is not available.
+
+However, the application can be run from source by executing the `main.py` file,
+provided that Python and the required dependencies are installed.
 
 > [!WARNING]
 > **For proper program execution, please read the notes below**
