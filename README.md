@@ -6,6 +6,8 @@
 # ℹ️Repository Info 
 ![GitHub repo size](https://img.shields.io/github/repo-size/Lorydima/PyCalcPro?color=red)
 ![Platform: Windows](https://img.shields.io/badge/platform-windows-blue)
+![Platform: Linux via Wine](https://img.shields.io/badge/linux%20via%20wine-red?)
+![macOS Support](https://img.shields.io/badge/macos%20via%20main.py-lightblue?)
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/Lorydima/PyCalcPro?color=lightblue)
 ![GitHub version](https://img.shields.io/github/v/release/Lorydima/PyCalcPro?color=blueviolet)
