@@ -1,11 +1,13 @@
 # PyCalc Pro V1.7
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/c27c154a-8c2d-4615-9cfb-885b824f65d4" alt="PyCalc_Pro_V1.4_README_Img" width="400" height="900">
+  <img src="https://github.com/user-attachments/assets/44b319b5-1a12-4d44-94be-c4f50ba28488" alt="PyCalc_Pro_V1.7_README_Img" width="400" height="900">
 </div>
 
 # ℹ️Repository Info 
 ![GitHub repo size](https://img.shields.io/github/repo-size/Lorydima/PyCalcPro?color=red)
 ![Platform: Windows](https://img.shields.io/badge/platform-windows-blue)
+![Platform: Linux via Wine](https://img.shields.io/badge/linux%20via%20wine-red?)
+![macOS Support](https://img.shields.io/badge/macos%20via%20main.py-lightblue?)
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/Lorydima/PyCalcPro?color=lightblue)
 ![GitHub version](https://img.shields.io/github/v/release/Lorydima/PyCalcPro?color=blueviolet)
@@ -64,12 +66,12 @@ The `docs/` folder contains files used for the source code of website. It is **n
 
 
 # 🌐PyCalc Pro Webiste
-<img src="https://github.com/user-attachments/assets/278be1fc-b2ff-4aeb-94f3-32ec7c7856b7" alt="PyCalc_Pro_V1.1_README_Img" width="1200" height="400">
+<img src="https://github.com/user-attachments/assets/73b31c94-2f38-4008-927e-8f2d0e44c0e6" alt="PyCalc_Pro_Website_Img" width="1200" height="400">
 You can access PyCalc Pro Website from this link: <a href="https://lorydima.github.io/PyCalcPro/" target="_blank">PyCalc Pro Website</a>
 
 # 💾Downolad PyCalc Pro 
 To donwload PyCalc Pro V.1.7 follow this link, the software is for **Windows OS, for linux use Wine:**
-<a href="https://github.com/Lorydima/PyCalcPro/releases/download/PyCalc_Pro_V1.6_Relase/PyCalc_Pro_V1.6_Windows.zip" download>Download PyCalc Pro V1.7</a>
+<a href="https://github.com/Lorydima/PyCalcPro/releases/download/PyCalc_Pro_V1.7_Relase/PyCalc_Pro_V1.7.zip" download>Download PyCalc Pro V1.7</a>
 
 **For macOS**  
 The EXE file is not available.
