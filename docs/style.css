@@ -189,6 +189,10 @@ footer {
     color: black;
     padding: 20px 0;
     text-align: center;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    flex-direction: row !important;
 }
 
 footer p {
@@ -363,6 +367,11 @@ footer a {
         transform: none; 
     }
     
+    footer {
+        flex-direction: column !important;
+        justify-content: center !important;
+    }
+    
     .navbar .btn-danger {
         font-size: 16px;
         background-color: red;
@@ -527,23 +536,26 @@ footer a {
         font-size: 18px;
         line-height: 1.6;
         max-width: 300px;
-        margin-right: 25px;
+        margin-right: 50px;
     }
     
 
     .card .btn-danger {
-        width: 325px;
+        width: 300px;
         margin: 0 auto; 
         background-color: red;
         color: white;
         padding: 10px;
         border-radius: 10px;
-        font-size: 5px;
+        font-size: 14px;
         text-align: center;
         position: relative;
         top: 0; 
-        margin-top: -470px;
-        margin-left: 20px;
+        margin-top: -550px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 45px;
     }
 }
 
