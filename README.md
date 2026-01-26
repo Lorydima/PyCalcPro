@@ -64,7 +64,7 @@ The `docs/` folder contains files used for the source code of website. It is **n
 
 
 # 🌐PyCalc Pro Webiste
-<img src="https://github.com/user-attachments/assets/278be1fc-b2ff-4aeb-94f3-32ec7c7856b7" alt="PyCalc_Pro_V1.1_README_Img" width="1200" height="400">
+<img src="https://github.com/user-attachments/assets/73b31c94-2f38-4008-927e-8f2d0e44c0e6" alt="PyCalc_Pro_Website_Img" width="1200" height="400">
 You can access PyCalc Pro Website from this link: <a href="https://lorydima.github.io/PyCalcPro/" target="_blank">PyCalc Pro Website</a>
 
 # 💾Downolad PyCalc Pro 
