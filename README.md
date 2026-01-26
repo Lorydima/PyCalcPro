@@ -69,7 +69,7 @@ You can access PyCalc Pro Website from this link: <a href="https://lorydima.gith
 
 # 💾Downolad PyCalc Pro 
 To donwload PyCalc Pro V.1.7 follow this link, the software is for **Windows OS, for linux use Wine:**
-<a href="https://github.com/Lorydima/PyCalcPro/releases/download/PyCalc_Pro_V1.6_Relase/PyCalc_Pro_V1.6_Windows.zip" download>Download PyCalc Pro V1.7</a>
+<a href="https://github.com/Lorydima/PyCalcPro/releases/download/PyCalc_Pro_V1.7_Relase/PyCalc_Pro_V1.7.zip" download>Download PyCalc Pro V1.7</a>
 
 **For macOS**  
 The EXE file is not available.
