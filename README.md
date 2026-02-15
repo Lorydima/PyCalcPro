@@ -81,7 +81,8 @@ However, the application can be run from source by executing the `main.py` file,
 provided that Python and the required dependencies are installed.
 
 > [!WARNING]
-> **For proper program execution, please read the notes below**  
+> **For proper program execution, please read the notes below**
+> 
 >   **Do not delete the `.json` or `.ico` or `.txt` other file types** in the download folder they are required for the program to function correctly.
 
 # 🔗Clone Repository
