@@ -18,14 +18,13 @@
 ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-green)
 ![License: MIT](https://img.shields.io/badge/license-MIT-blue)
 
-# 🎲Features
+# 🎲 Features
 
-PyCalc Pro includes:
-- Basic math operations (+, -, *, /, %)
-- Advanced math operations (sqrt, sin, cos, tan, log, abs)
-- Unit converter (mass, length)
-- Operations memory (last 10 operations)
-
+| Images | Feature Description |
+|------------|-------------------|
+| ![PyCalc Pro 1](https://lorydima.github.io/PyCalcPro/PyCalc_Pro_README_02.png) | **Advanced math operations:** sqrt, sin, cos, tan, log, abs |
+| ![PyCalc Pro 2](https://lorydima.github.io/PyCalcPro/PyCalc_Pro_README_03.png) | **Unit converter:** mass, length; |
+| ![PyCalc Pro 3](https://lorydima.github.io/PyCalcPro/PyCalc_Pro_README_04.png) |  **Operations memory:** last 10 operations |
 
 # 📁Project Structure
 
@@ -86,9 +85,16 @@ provided that Python and the required dependencies are installed.
 >   **Do not delete the `.json` or `.ico` or `.txt` other file types** in the download folder they are required for the program to function correctly.
 
 # 🔗Clone Repository
+Follow this steps:
 ```bash
 git clone https://github.com/Lorydima/PyCalcPro.git
 ```
+
+```bash
+run main.py
+```
+All libraries used in this project are part of Python's standard library. No external libraries are required
+
 # 🛠️Bug reports and issue
 I do my best to keep this project stable and reliable, but bugs can still happen.
 If you spot any issues or errors, feel free to open a GitHub issue.
