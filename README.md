@@ -93,7 +93,7 @@ git clone https://github.com/Lorydima/PyCalcPro.git
 ```bash
 run main.py
 ```
-All libraries used in this project are part of Python's standard library. No external libraries are required
+All libraries used in this project are part of **Python's standard library**. No external libraries are required
 
 # 🛠️Bug reports and issue
 I do my best to keep this project stable and reliable, but bugs can still happen.
