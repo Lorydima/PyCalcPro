@@ -213,14 +213,67 @@ footer a {
     margin-left: 200px;
 }
 
-.download-info {
-    margin-left: 80px;
+/* Premium Download Section Styles */
+.download-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
 }
 
-.btn-danger {
-    width: 550px;
-    margin-top: -10px;
-    margin-left: -10px;
+.btn-download-premium {
+    display: flex;
+    align-items: center;
+    background-color: #ff0000;
+    color: white;
+    text-decoration: none;
+    padding: 20px 40px;
+    border-radius: 20px;
+    border: none;
+}
+
+.btn-download-premium:hover {
+    background-color: #cc0000;
+    color: white;
+}
+
+.btn-download-premium i {
+    font-size: 50px;
+    margin-right: 25px;
+}
+
+.btn-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.main-text {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.sub-text {
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+.download-info-container {
+    text-align: center;
+}
+
+.release-date {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.platform-info p {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: white;
 }
 
 @media (max-width: 1024px) {
@@ -350,15 +403,20 @@ footer a {
         margin-top: -10px;
     }
 
-    .download-info {
-        margin-top: 180px;
-        margin-left: -500px;
+    .download-section {
+        margin-top: 20px;
     }
 
-    .btn-danger {
-        width: 500px;
-        margin-top: -300px;
-        margin-left: 150px;
+    .btn-download-premium {
+        padding: 15px 30px;
+    }
+
+    .main-text {
+        font-size: 28px;
+    }
+
+    .btn-download-premium i {
+        font-size: 40px;
     }
 }
 
@@ -530,32 +588,26 @@ footer a {
         text-align: center; 
     }
 
-    .download-info {
-        margin-top: 150px;
-        text-align: center;
-        font-size: 18px;
-        line-height: 1.6;
-        max-width: 300px;
-        margin-right: 50px;
-    }
-    
-
-    .card .btn-danger {
-        width: 300px;
-        margin: 0 auto; 
-        background-color: red;
-        color: white;
-        padding: 10px;
-        border-radius: 10px;
-        font-size: 14px;
-        text-align: center;
-        position: relative;
-        top: 0; 
-        margin-top: -550px;
-        display: flex;
-        align-items: center;
+    .btn-download-premium {
+        width: 100%;
+        max-width: 320px;
+        padding: 12px 20px;
         justify-content: center;
-        margin-left: 45px;
+    }
+
+    .main-text {
+        font-size: 22px;
+        color: white !important;
+    }
+
+    .sub-text {
+        font-size: 14px;
+        color: white !important;
+    }
+
+    .btn-download-premium i {
+        font-size: 30px;
+        margin-right: 15px;
     }
 }
 

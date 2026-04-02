@@ -32,7 +32,7 @@
                         </li>
                         <li class="nav-item">
                             <center>
-                                <a class="btn btn-danger ms-3 align-text-bottom" href="https://github.com/Lorydima/PyCalcPro" target="_blank">
+                                <a class="btn btn-danger ms-3 align-text-bottom" href="https://github.com/Lorydima/PyCalcPro" target="_blank" rel="noopener">
                                     <i class="fab fa-github me-2"></i> GitHub Repository
                                 </a>
                             </center>
@@ -44,7 +44,7 @@
         <div class="hero-text">
             <h1><strong>PyCalc <span>Pro</span></strong></h1>
             <p>PyCalc Pro is a professional and <br> easy to use <br> calculator developed in Python</p>
-            <a href="https://github.com/Lorydima" target="_blank">Developed by LDM Dev</a>
+            <a href="https://github.com/Lorydima" target="_blank" rel="noopener">Developed by LDM Dev</a>
         </div>
         <div class="d-flex justify-content-end">
             <img src="PyCalc_Pro_README_01.png" class="img-fluid hero-img" alt="PyCalc_Pro_README_Img">
@@ -117,16 +117,23 @@
     </div>
 
 
-    <div class="card">
-        <h1 style="text-align: center;">Download <span style="color: red;">PyCalc Pro v1.7</span></h1>
-        <div style="display: flex; align-items: center; margin-top: 80px;">
-            <a id="download-btn" href="https://github.com/Lorydima/PyCalcPro/releases/download/PyCalc_Pro_V1.7_Relase/PyCalc_Pro_V1.7.zip" download class="btn btn-danger" style="font-size: 50px; display: flex; align-items: center;">
-                <i class="fas fa-download" style="margin-right: 10px;"></i> Download Now
+    <div class="card text-center">
+        <h1 class="mb-4">Download <span style="color: red;">PyCalc Pro</span></h1>
+        <div class="download-section">
+            <a id="download-btn" href="https://github.com/Lorydima/PyCalcPro/releases/download/PyCalc_Pro_V1.7_Relase/PyCalc_Pro_V1.7.zip" download class="btn-download-premium">
+                <i class="fas fa-download"></i>
+                <div class="btn-text">
+                    <span class="main-text">Download Now</span>
+                    <span class="sub-text">v1.7</span>
+                </div>
             </a>
-            <div class="download-info">
-                <p style="font-size: 30px;">Download PyCalc Pro v1.7 Release Date 26/01/2026</p>
-                <p style="font-size: 30px;">The download is for <strong>Windows OS, for linux use Wine.</strong></p>
-                <p style="font-size: 30px;">macOS users can run the application from source via GitHub.</strong></p>
+            <div class="download-info-container">
+                <p class="release-date">Release Date: 26/01/2026</p>
+                <div class="platform-info">
+                    <p><i class="fab fa-windows me-2"></i><strong>Windows OS</strong></p>
+                    <p><i class="fab fa-linux me-2"></i><strong>Linux</strong> (use Wine)</p>
+                    <p><i class="fab fa-apple me-2"></i><strong>macOS</strong> (Run from source via GitHub)</p>
+                </div>
             </div>
         </div>
     </div>
@@ -158,16 +165,16 @@
             <p class="nav-link" style="color: rgb(0, 0, 0); font-family: Arial, Helvetica, sans-serif; font-size: 25px; margin: 0;"><strong>Version 1.7</strong></p>
         </div>
         <div class="d-flex align-items-center gap-2">
-            <a href="https://github.com/Lorydima" style="color: rgb(0, 0, 0); font-family: Arial, Helvetica, sans-serif; font-size: 25px; margin: 0;" target="_blank">Developed by LDM Dev</a>
+            <a href="https://github.com/Lorydima" style="color: rgb(0, 0, 0); font-family: Arial, Helvetica, sans-serif; font-size: 25px; margin: 0;" target="_blank" rel="noopener">Developed by LDM Dev</a>
         </div>
     </footer>
     
     
     <div class="Website-info" style="background-color: white; margin-top: 0;">
         <p style="font-size: 14px; margin: 10px ; color: black;">Python is a trademark of the Python Software Foundation. This project is not affiliated with or endorsed by the PSF.</p>
-        <p style="font-size: 14px; margin: 10px ; color: black;">Icons used in this project are provided by <a href="https://fontawesome.com" target="_blank" style="color: blue; text-decoration: underline;">Font Awesome</a>.</p>
+        <p style="font-size: 14px; margin: 10px ; color: black;">Icons used in this project are provided by <a href="https://fontawesome.com" target="_blank" rel="noopener" style="color: blue; text-decoration: underline;">Font Awesome</a>.</p>
         <p class="website-info-text" style="font-size: 14px; margin: 10px; color: black;">
-            This website is hosted on <a href="https://pages.github.com/" target="_blank" style="color:#0d55ad;text-decoration:underline;">GitHub Pages</a>.
+            This website is hosted on <a href="https://pages.github.com/" target="_blank" rel="noopener" style="color:#0d55ad;text-decoration:underline;">GitHub Pages</a>.
         </p>
         </div>
 
@@ -175,7 +182,7 @@
         (function(){
             const btn = document.getElementById('download-btn');
             if (!btn) return;
-            const message = "Security notice\n\nThis application is distributed as a standalone .exe built with PyInstaller. Some antivirus software may occasionally flag unsigned PyInstaller executables as false positives.\n\nYou should NOT disable your antivirus.\nIf your antivirus blocks the file, you can:\n\n- verify the source code in this repository\n- build the executable yourself from source\n- or add the executable to your antivirus allow-list, if you trust the source\n\nNo network access, telemetry, or background processes are used by this application.\n\nImportant: Do not delete the .json or .ico or .txt file types in the download folder they are required for the program to function correctly.";
+            const message = "Thank you for downloading PyCalc Pro\n\nImportant: Do not delete the .json or .ico or .txt file types in the download folder they are required for the program to function correctly.";
 
             function notifyBrowser() {
                 if (!('Notification' in window)) return;
