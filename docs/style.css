@@ -57,24 +57,13 @@ hr {
     height: 600px;
 }
 
-.card-title h1 {
-    margin-left: 500px;
-    margin-top: -50px;
-}
+
 
 .card-title1 h1 {
     font-size: 35px;
     margin-left: 50px;
 }
 
-.card-title h1 span {
-    color: red;
-}
-
-.card-text0 p {
-    font-size: 25px;
-    margin-left: 500px;
-}
 
 .card-title2 h1 {
     font-size: 35px;
@@ -205,13 +194,7 @@ footer a {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.python-icon {
-    color: white;
-    align-items: left;
-    font-size: 250px;
-    margin-bottom: -170px;
-    margin-left: 200px;
-}
+
 
 
 .download-section {
@@ -359,19 +342,14 @@ footer a {
         margin-top: -50px;
     }
 
-    .card-title h1 {
-        margin-left: 200px;
-        margin-top: 200px;
-    }
+
 
     .card-image3 {
         height: 1000px;
         width: 100%;
     }
 
-    .card-title h1 span {
-        color: red;
-    }
+
 
     .card-title2 h1 {
         margin-right: 1500px;
@@ -384,10 +362,7 @@ footer a {
         margin-top: -25px;
     }
 
-    .card-text0 p {
-        font-size: 25px;
-        margin-left: 150px;
-    }
+
 
     .card-text p, .card-text ul li {
         font-size: 0.9rem;
@@ -396,12 +371,7 @@ footer a {
         margin-right: 200px;
     }
 
-    .python-icon {
-        font-size: 220px;
-        margin-left: 50px;
-        align-items: center;
-        margin-top: -10px;
-    }
+
 
     .download-section {
         margin-top: 20px;
@@ -582,11 +552,7 @@ footer a {
         margin: 0 auto; 
     }
 
-    .python-icon {
-        font-size: 220px;
-        margin: 10px auto;
-        text-align: center; 
-    }
+
 
     .btn-download-premium {
         width: 100%;
