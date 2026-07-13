@@ -160,33 +160,5 @@
             This website is hosted on <a href="https://pages.github.com/" target="_blank" rel="noopener" style="color:#0d55ad;text-decoration:underline;">GitHub Pages</a>.
         </p>
         </div>
-
-        <script>
-        (function(){
-            const btn = document.getElementById('download-btn');
-            if (!btn) return;
-            const message = "Thank you for downloading PyCalc Pro\n\nImportant: Do not delete the .json or .ico or .txt file types in the download folder they are required for the program to function correctly.";
-
-            function notifyBrowser() {
-                if (!('Notification' in window)) return;
-                if (Notification.permission === 'granted') {
-                    new Notification('PyCalc Pro - Download Info', { body: message });
-                } else if (Notification.permission !== 'denied') {
-                    Notification.requestPermission().then(function(permission){
-                        if (permission === 'granted') new Notification('PyCalc Pro - Download Info', { body: message });
-                    });
-                }
-            }
-
-            btn.addEventListener('click', function(e){
-                e.preventDefault();
-                notifyBrowser();
-                alert(message);
-                const href = this.href;
-                setTimeout(function(){ window.location.href = href; }, 150);
-            });
-        })();
-        </script>
-
 </body>
 </html>
