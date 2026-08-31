@@ -1,32 +1,29 @@
-# PyCalc Pro V1.7
-
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/44b319b5-1a12-4d44-94be-c4f50ba28488" alt="PyCalc_Pro_V1.7_README_Img" width="400" height="900">
+  <h1>PyCalc Pro</h1>
+  <img src="docs/PyCalc_Pro_Logo.png" alt="PyCalc Pro Logo" width="200">
+  <br>
+  <img src="https://img.shields.io/github/stars/Lorydima/PyCalcPro?color=gold" alt="GitHub stars">
+  <img src="https://img.shields.io/badge/platforms-Windows%20%7C%20Linux%20via%20Wine or main.py%20%7C%20macOS%20via%20main.py-red" alt="Platforms">
+  <img src="https://img.shields.io/badge/contributions-welcome-green" alt="Contributions welcome">
+  <img src="https://img.shields.io/badge/license-MIT-blue" alt="License: MIT">
+  <br>
 </div>
 
-# ℹ️Repository Info
+<div align="center">
+  <a href="https://lorydima.github.io/PyCalcPro/" target="_blank" style="font-size: 30px; font-weight: bold;">Website</a>
+</div>
 
-![GitHub stars](https://img.shields.io/github/stars/Lorydima/PyCalcPro?color=gold)
-![GitHub repo size](https://img.shields.io/github/repo-size/Lorydima/PyCalcPro?color=red)
-![Platform: Windows](https://img.shields.io/badge/platform-windows-blue)
-![Platform: Linux via Wine](https://img.shields.io/badge/linux%20via%20wine-red?)
-![macOS Support](https://img.shields.io/badge/macos%20via%20main.py-lightblue?)
-
-![GitHub last commit](https://img.shields.io/github/last-commit/Lorydima/PyCalcPro?color=lightblue)
-![GitHub version](https://img.shields.io/github/v/release/Lorydima/PyCalcPro?color=blueviolet)
-![GitHub Pull Requests](https://img.shields.io/github/issues-pr/Lorydima/PyCalcPro?color=purple)
-![GitHub Issues](https://img.shields.io/github/issues/Lorydima/PyCalcPro?color=purple)
-
-![Contributions welcome](https://img.shields.io/badge/contributions-welcome-green)
-![License: MIT](https://img.shields.io/badge/license-MIT-blue)
+<br>
+<p align="center"><strong>Professional and easy to use calculator developed in Python</strong></p>
 
 # 🎲 Features
 
 | Images | Feature Description |
-|------------|-------------------|
+| ------------ | ------------------- |
+| ![PyCalc Pro GUI](https://github.com/user-attachments/assets/44b319b5-1a12-4d44-94be-c4f50ba28488) | **GUI screenshot** |
 | ![PyCalc Pro 1](https://lorydima.github.io/PyCalcPro/PyCalc_Pro_README_02.png) | **Advanced math operations:** sqrt, sin, cos, tan, log, abs |
 | ![PyCalc Pro 2](https://lorydima.github.io/PyCalcPro/PyCalc_Pro_README_03.png) | **Unit converter:** mass, length; |
-| ![PyCalc Pro 3](https://lorydima.github.io/PyCalcPro/PyCalc_Pro_README_04.png) |  **Operations memory:** last 10 operations |
+| ![PyCalc Pro 3](https://lorydima.github.io/PyCalcPro/PyCalc_Pro_README_04.png) | **Operations memory:** last 10 operations |
 
 # 📁Project Structure
 
@@ -65,11 +62,6 @@ Assets (icons and data files) are stored inside so the application can find them
 
 **About the docs/ folder:**  
 The `docs/` folder contains files used for the source code of website. It is **not required to run the application** locally.
-
-# 🌐PyCalc Pro Webiste
-
-<img src="https://github.com/user-attachments/assets/73b31c94-2f38-4008-927e-8f2d0e44c0e6" alt="PyCalc_Pro_Website_Img" width="1200" height="400">
-You can access PyCalc Pro Website from this link: <a href="https://lorydima.github.io/PyCalcPro/" target="_blank">PyCalc Pro Website</a>
 
 # 💾Downolad PyCalc Pro
 
