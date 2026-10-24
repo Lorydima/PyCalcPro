@@ -14,9 +14,8 @@
 </div>
 
 <br>
-<div align="center">
-  <video src="PyCalcPro_V1.7_Video.mp4" width="700" autoplay loop muted playsinline></video>
-</div>
+
+https://github.com/user-attachments/assets/f77fb11b-06de-4fc9-9ec7-46d470f975a5
 
 <br>
 <p align="center"><strong>Professional and easy to use calculator developed in Python</strong></p>
