@@ -14,17 +14,15 @@
 </div>
 
 <br>
+<p align="center"><strong>Professional and easy to use calculator developed in Python</strong></p>
+<br>
 
 https://github.com/user-attachments/assets/f77fb11b-06de-4fc9-9ec7-46d470f975a5
-
-<br>
-<p align="center"><strong>Professional and easy to use calculator developed in Python</strong></p>
 
 # 🎲 Features
 
 | Images | Feature Description |
 | ------------ | ------------------- |
-| ![PyCalc Pro GUI](https://github.com/user-attachments/assets/44b319b5-1a12-4d44-94be-c4f50ba28488) | **GUI screenshot** |
 | ![PyCalc Pro 1](https://lorydima.github.io/PyCalcPro/PyCalc_Pro_README_02.png) | **Advanced math operations:** sqrt, sin, cos, tan, log, abs |
 | ![PyCalc Pro 2](https://lorydima.github.io/PyCalcPro/PyCalc_Pro_README_03.png) | **Unit converter:** mass, length; |
 | ![PyCalc Pro 3](https://lorydima.github.io/PyCalcPro/PyCalc_Pro_README_04.png) | **Operations memory:** last 10 operations |
