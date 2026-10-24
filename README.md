@@ -14,6 +14,11 @@
 </div>
 
 <br>
+<div align="center">
+  <video src="PyCalcPro_V1.7_Video.mp4" width="700" autoplay loop muted playsinline></video>
+</div>
+
+<br>
 <p align="center"><strong>Professional and easy to use calculator developed in Python</strong></p>
 
 # 🎲 Features
